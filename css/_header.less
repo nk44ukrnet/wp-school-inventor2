@@ -1,0 +1,196 @@
+header.header {
+  position: relative;
+  z-index: 10;
+  .line {
+    background-color: @blueColor;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    .outer {
+      .content-size();
+    }
+    .inner {
+      width: 100%;
+      max-width: 600px; //23.9
+      margin-left: auto;
+      margin-right: 2rem;
+      gap: 2rem;
+      display: flex;
+      //justify-content: space-between;
+      justify-content: flex-end;
+      align-items: center;
+      .login, .lang, .tel {
+        display: block;
+      }
+      .consult {
+        display: none;
+      }
+      .lang {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        li {
+          display: inline-block;
+          &:nth-child(1) {
+            margin-right: 1rem;
+          }
+        }
+        li.current-lang {
+          a {
+            opacity: 1;
+            visibility: visible;
+          }
+        }
+        a {
+          opacity: 0;
+          visibility: hidden;
+          text-transform: uppercase;
+        }
+        .mobile({
+          order: -1;
+        });
+      }
+      a {
+        color: @whiteColor;
+        font: normal 11px/150% @fontRegular;
+        text-decoration: none;
+      }
+      .mobile({
+        margin-left: 0;
+        max-width: none;
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        .login, .tel {
+          display: none;
+        }
+        .consult {
+          display: block;
+          color: @blackColor;
+          padding: 1rem 2rem;
+          border-radius: 2rem;
+          background-color: @whiteColor;
+        }
+      });
+    }
+  }
+}
+.logo_nav {
+  //position: relative;
+  position: sticky;
+  top: -1px;
+  z-index: 10;
+  .content-size();
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: @whiteColor;
+  .mobile({
+    position: sticky;
+    top: 0;
+    border: 1px solid @blackColor;
+  });
+  .logo {
+    .mobile-sized(1125px, {
+      border-right: 1px solid @blackColor;
+    });
+    &:hover {
+      opacity: 1;
+    }
+  }
+  nav {
+    flex: 1;
+    padding-top: 1rem;
+    background-color: @whiteColor;
+    .mobile-sized(1125px, {
+      padding-top: 0;
+      display: flex;
+      justify-content: flex-end;
+    });
+    ul.mynav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      list-style: none;
+      margin-right: 3.1rem;
+      margin-left: 3.1rem;
+      li {
+        a {
+          color: @blackColor;
+          font: 500 14px/1.6rem @fontRegular;
+        }
+        &:hover {
+          .sub-menu {
+            display: block;
+            list-style-type: none;
+          }
+        }
+        .sub-menu {
+          display: none;
+          position: absolute;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          border-radius: 1.5rem;
+          margin: 0;
+          white-space: nowrap;
+          padding: 1.5rem;
+          background-color: @semiBlueColor1;
+          li {
+            margin-bottom: .3rem;
+          }
+        }
+      }
+      .mobile-sized( 1125px, {
+        display: none;
+        position: absolute;
+        top: 4.5rem;
+        left: 0;
+        border: .1rem solid @blackColor;
+        width: 100%;
+        margin: 0;
+        padding: 2.5rem 3.4rem 3.6rem;
+        height: 17rem; //38rem
+        overflow: auto;
+        background-color: @whiteColor;
+        li {
+          margin-bottom: 1rem;
+          .sub-menu {
+            list-style-type: none;
+            display: block;
+            background-color: transparent;
+            position: relative;
+            top: 0;
+            left: 0;
+            padding: .75rem 0 0 1.5rem;
+            border: none;
+            margin: 0;
+          }
+        }
+
+      });
+    }
+    ul.mynav.active {
+      display: block !important;
+    }
+    ul.mynav.active + .action-group{
+      #mobMenuTrigger {
+        transform: rotate(180deg);
+      }
+    }
+    .action-group {
+      display: none;
+      .mobile-sized( 1125px, {
+        display: flex;
+        align-items: center;
+        img {
+          display: block;
+        }
+        a:hover {
+          opacity: 1;
+        }
+      })
+    }
+  }
+}

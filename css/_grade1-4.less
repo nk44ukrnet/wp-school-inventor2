@@ -1,0 +1,637 @@
+.grade1-4-screen1 {
+  .template-size();
+  padding-left: 79px;
+  padding-top: 39px;
+  padding-bottom: 75px;
+  background-image: url(../img/grade1-4-screen1-bg-1.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  h1 {
+    font: 600 40px @fontRegular;
+    letter-spacing: -.02em;
+    padding-bottom: 66px;
+  }
+  ul {
+    list-style-type: none;
+    padding-bottom: 56px;
+    padding-left: 0;
+    li {
+      font-size: 14px;
+      line-height: 128%;
+      font-weight: 600;
+      position: relative;
+      padding-left: 39px;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 22px;
+        height: 21px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+      &:nth-child(1):before {
+        background-image: url(../img/grade1-4-screen1-ul-bullet1.svg);
+        width: 27px;
+        height: 27px;
+      }
+      &:nth-child(2):before {
+        background-image: url(../img/grade1-4-screen1-ul-bullet2.svg);
+      }
+      &:nth-child(3):before {
+        background-image: url(../img/grade1-4-screen1-ul-bullet3.svg);
+      }
+    }
+  }
+  .school-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 678px;
+    .date {
+      color: @semiBlueColor2;
+      font-weight: 600;
+    }
+    .btn-entry {
+      display: block;
+      padding: 20px 25px;
+      background-color: @redColor;
+      color: @whiteColor;
+      box-shadow: 0px 3px 15px 7px rgba(255, 0, 0, 0.2);
+      border-radius: 10px;
+      transition: all .25s linear;
+      &:hover {
+        opacity: 1;
+        transform: translateY(5px);
+      }
+    }
+  }
+  .mobile-sized(1109px, {
+    padding-left: 20px;
+  });
+  .mobile-sized(947px, {
+    padding-top: 33px;
+    padding-bottom: 350px;
+    background-size: 309px;
+    background-position: bottom center;
+    padding-left: 0;
+    h1 {
+      max-width: 309px;
+      text-align: center;
+      margin: 0 auto;
+      padding-bottom: 51px;
+      font-size: 35px;
+      line-height: 42px;
+      br {
+        display: none;
+      }
+      span {
+        color: @semiBlueColor2;
+      }
+    }
+    ul {
+      max-width: 214px;
+      margin: 0 auto;
+      padding-bottom: 0;
+      li {
+        font-size: 12px;
+        line-height: 14.4px;
+      }
+    }
+    .school-entry {
+      position: fixed;
+      z-index: 2;
+      bottom: 20px;
+      justify-content: center;
+      width: 100%;
+      max-width: none;
+      .date {
+        display: none;
+      }
+      .btn-reg:hover {
+        transform: translate(0,0);
+      }
+    }
+  });
+}
+
+.grade1-4-result {
+  padding-top: 56px;
+  padding-bottom: 61px;
+  background-color: @semiBlueColor1;
+  background-repeat: no-repeat;
+  background-image: url(../img/grade1-4-result-bg-1.png);
+  background-position: bottom -4px center;
+  position: relative;
+  h2 {
+    text-align: center;
+    letter-spacing: -.02em;
+    font: 600 40px @fontRegular;
+    padding-bottom: 140px;
+    span {
+      color: @semiBlueColor2;
+    }
+  }
+  iframe {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 243px;
+    height: 462px;
+    z-index: 2;
+  }
+    .result-content {
+    display: flex;
+    justify-content: space-between;
+    .content-size();
+    font: 600 24px/28.8px @fontRegular;
+    position: relative;
+    //&:after {
+    //  content: '';
+    //  display: block;
+    //  position: absolute;
+    //  width: 183px;
+    //  height: 185px;
+    //  background-repeat: no-repeat;
+    //  background-size: contain;
+    //  background-image: url(../img/grade1-4-result-after.png);
+    //  left: 100px;
+    //  bottom: -199px;
+    //}
+    .result-item {
+      background-color: @whiteColor;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      width: 100%;
+      position: relative;
+      cursor: pointer;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 40px;
+        width: 49px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+    .result-left {
+      max-width: 383px;
+      width: 100%;
+      .result-item {
+        padding: 20px 2px 20px 102px;
+        max-width: 383px;
+        &:nth-child(1):before {
+          top: 5px;
+          left: 30px;
+          background-image: url(../img/grade1-4-result-content-image-i1.svg);
+        }
+        &:nth-child(2):before {
+          background-image: url(../img/grade1-4-result-content-image-i2.svg);
+          width: 38px;
+          height: 19px;
+          top: 25px;
+        }
+        &:nth-child(3):before {
+          background-image: url(../img/grade1-4-result-content-image-i3.svg);
+          width: 22px;
+          height: 21px;
+          top: 35px;
+        }
+      }
+    }
+    .result-right {
+      width: 100%;
+      max-width: 405px;
+      .result-item {
+        padding: 20px 22px 20px 79px;
+        max-width: 380px;
+        &:before {
+          top: 28px;
+          left: 30px;
+        }
+        &:not(:nth-child(1)) {
+          margin-left: auto;
+        }
+        &:nth-child(1) {
+          max-width: 405px;
+          &:before {
+            width: 29px;
+            height: 15px;
+            background-image: url(../img/grade1-4-result-content-image-i4.svg);
+            top: 28px;
+            left: 30px;
+          }
+        }
+        &:nth-child(2) {
+          max-width: 380px;
+          &:before {
+            width: 29px;
+            height: 21px;
+            background-image: url(../img/grade1-4-result-content-image-i5.svg);
+            top: 25px;
+          }
+        }
+        &:nth-child(3) {
+          max-width: 380px;
+          &:before {
+            width: 28px;
+            height: 28px;
+            background-image: url(../img/grade1-4-result-content-image-i6.svg);
+            top: 20px;
+          }
+        }
+      }
+    }
+    .result-item-special {
+      background-color: transparent;
+      margin-top: 49px;
+      font-size: 14px;
+      line-height: 16.8px;
+      color: @semiBlueColor2;
+    }
+  }
+  .mobile-sized(1136px, {
+    .padding-mobile();
+  });
+  .mobile-sized(1018px, {
+    iframe {
+      display: none;
+    }
+  });
+  .mobile-sized(956px, {
+    padding-top: 52px;
+    padding-bottom: 71px;
+    //background-image: url(../img/grade1-4-result-bg-mobile.png);
+    background-position: top 200px center;
+    h2 {
+      max-width: 316px;
+      margin: 0 auto;
+      font-size: 35px;
+      line-height: 112.1%;
+      padding-bottom: 334px;
+    }
+    .result-content {
+      flex-direction: column;
+      width: 100%;
+      max-width: 309px;
+      margin: 0 auto;
+      .result-left .result-item, .result-right .result-item {
+        padding-left: 21px;
+        padding-top: 62px;
+        padding-bottom: 20px;
+        margin-bottom: -5px;
+        box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        font-size: 20px;
+        line-height: 24px;
+        &:after {
+          content: '+';
+          position: absolute;
+          top: 18px;
+          right: 22px;
+          color: @semiBlueColor2;
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 25.55px;
+        }
+      }
+      .result-item-special {
+        display: none;
+      }
+      &:after {
+        display: none;
+      }
+    }
+  });
+}
+
+.grade1-4-process {
+  .content-size();
+  padding-top: 90px;
+  position: relative;
+  h2 {
+    letter-spacing: -.02em;
+    font: 600 60px @fontRegular;
+    padding-bottom: 64px;
+  }
+  .grade1-4-process-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .grade1-4-process-container-item {
+      background-color: @semiBlueColor1;
+      padding-top: 34px;
+      padding-bottom: 34px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      position: relative;
+      &:nth-child(1) {
+        width: 320px;
+      }
+      &:nth-child(2) {
+        width: 420px;
+      }
+      &:nth-child(3) {
+        width: 321px;
+      }
+      &:nth-child(4) {
+        width: 300px;
+      }
+      &:nth-child(5) {
+        width: 280px;
+      }
+      &:nth-child(6) {
+        width: 482px;
+      }
+      .grade1-4-process-container-item-trigger {
+        display: none;
+        position: fixed;
+      }
+      .grade1-4-process-container-item-text {
+        position: relative;
+        font: 600 22px @fontRegular;
+        text-align: center;
+        margin-bottom: 0;
+      }
+      .grade1-4-process-container-item-extra {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 10px;
+        background-color: @semiBlueColor1;
+        padding: 34px 22px 23px 24px;
+        width: 100%;
+        height: auto;
+        h3 {
+          font: 600 22px/24px @fontRegular;
+          padding-bottom: 22px;
+        }
+        p {
+          opacity: .85;
+          font: 14px/17px @fontRegular;
+        }
+      }
+      &:hover {
+        .grade1-4-process-container-item-extra {
+          display: block;
+          box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+  &:after {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -185px;
+    width: 183px;
+    height: 185px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/grade1-4-result-after.png);
+  }
+  .mobile-sized(1140px, {
+    .padding-mobile();
+    h2 {
+      text-align: center;
+    }
+    &:after {
+      display: none;
+    }
+  });
+  .mobile-sized(1110px, {
+    padding-top: 44px;
+    h2 {
+      font-size: 35px;
+      line-height: 40px;
+      padding-bottom: 45px;
+      max-width: 309px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .grade1-4-process-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 309px;
+      margin: 0 auto;
+      .grade1-4-process-container-item {
+        width: 100%;
+        max-width: 309px;
+        margin-bottom: 0;
+        background-color: @whiteColor;
+        padding: 19px 29px 30px 21px;
+        box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6) {
+          width: 100%;
+          max-width: 309px;
+        }
+        &:not(:last-child) {
+          margin-bottom: -9px;
+        }
+        .grade1-4-process-container-item-trigger {
+          display: block;
+          position: absolute;
+          height: 22px;
+          width: 22px;
+          top: 18px;
+          right: 18px;
+          color: @semiBlueColor2;
+          z-index: 2;
+          cursor: pointer;
+          &:before {
+            content: attr(data-sign);
+            color: inherit;
+            font: 600 20px/26px @fontRegular;
+          }
+        }
+        .grade1-4-process-container-item-text {
+          text-align: left;
+          font-size: 20px;
+          line-height: 24px;
+        }
+        .grade1-4-process-container-item-extra {
+          display: none;
+          position: relative;
+          padding: 0;
+          margin: 0;
+          background-color: @whiteColor;
+          h3 {
+            display: none;
+          }
+          p {
+            padding-top: 22px;
+            opacity: .5;
+            margin-bottom: 0;
+          }
+        }
+        &:hover .grade1-4-process-container-item-extra {
+          display: none;
+          box-shadow: none;
+        }
+      }
+      .grade1-4-process-container-item.grade-active {
+        .grade1-4-process-container-item-extra {
+          display: block;
+        }
+      }
+    }
+  });
+}
+
+.grade1-4-schedule {
+  padding-top: 98px;
+  padding-bottom: 138px;
+  h2 {
+    font: 600 60px/72px @fontRegular;
+    letter-spacing: -.02em;
+    padding-bottom: 37px;
+    text-align: center;
+  }
+  .grade1-4-schedule-box {
+    width: 100%;
+    max-width: 927px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 19.2px;
+    border-radius: 10px;
+    background-color: @semiBlueColor1;
+    padding: 64px 92px 56px 64px;
+    .grade1-4-schedule-box-row {
+      display: flex;
+      p {
+        padding-bottom: 10px;
+        &:nth-child(1) {
+          width: 100%;
+          max-width: 150px;
+        }
+        &:nth-child(2) {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  h3 {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 53px;
+    font: 400 14px/18px @fontRegular;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-140%, 280%);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(../img/grade1-4-schedule-h3-before.svg);
+      width: 28.21px;
+      height: 15.95px;
+    }
+  }
+  .mobile-sized(782px, {
+    padding-top: 176px;
+    background-image: url(../img/about-advantages-bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 127px 85px;
+    background-position: top 48px center;
+    padding-bottom: 55px;
+    h2 {
+      font-size: 40px;
+      padding-bottom: 44px;
+    }
+    .grade1-4-schedule-box {
+      max-width: 309px;
+      padding: 30px 33px 22px;
+      .grade1-4-schedule-box-row {
+        flex-direction: column;
+        p {
+          font-size: 20px;
+          padding-bottom: 10px;
+          &:nth-child(2) {
+            &:not(:last-child) {
+              padding-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+    h3 {
+      display: none;
+    }
+  });
+}
+
+.grade1-4-project {
+  .template-size();
+  display: flex;
+  justify-content: space-between;
+  &-item {
+    width: 50%;
+    &:nth-child(1) {
+      //background-image: url(../img/grade1-4-projec-bg-temp.png);
+      background-image: url(../img/grade5-12-project-bg1.svg);
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-size: contain;
+      position: relative;
+    }
+    &:nth-child(2) {
+      background-color: @semiBlueColor1;
+      padding: 85px 144px 120px 80px;
+      h2 {
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: -.02em;
+        padding-bottom: 67px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 128.3%;
+      }
+    }
+  }
+  .mobile-sized(1094px, {
+    flex-direction: column;
+    &-item {
+      width: 100%;
+      &:nth-child(1) {
+        //width: 100%;
+        height: 384px;
+        background-position: bottom center;
+        //background-size: 412px 384px;
+      }
+      &:nth-child(2) {
+        padding: 44px 33px 83px;
+        h2 {
+          font-size: 35px;
+          padding-bottom: 32px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+  });
+}

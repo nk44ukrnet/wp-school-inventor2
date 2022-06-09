@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Stolzl-Regular';
+  src: url('../fonts/Stolzl-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Stolzl-Regular.otf') format('opentype'), url('../fonts/Stolzl-Regular.woff') format('woff'), url('../fonts/Stolzl-Regular.ttf') format('truetype'), url('../fonts/Stolzl-Regular.svg#Stolzl-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Stolzl-Medium';
+  src: url('../fonts/Stolzl-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Stolzl-Medium.otf') format('opentype'), url('../fonts/Stolzl-Medium.woff') format('woff'), url('../fonts/Stolzl-Medium.ttf') format('truetype'), url('../fonts/Stolzl-Medium.svg#Stolzl-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'StolzM-Bold';
+  src: url('../fonts/StolzM-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/StolzM-Bold.otf') format('opentype'), url('../fonts/StolzM-Bold.woff') format('woff'), url('../fonts/StolzM-Bold.ttf') format('truetype'), url('../fonts/StolzM-Bold.svg#StolzM-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Stolzl-Bold';
+  src: url('../fonts/Stolzl-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Stolzl-Bold.otf') format('opentype'), url('../fonts/Stolzl-Bold.woff') format('woff'), url('../fonts/Stolzl-Bold.ttf') format('truetype'), url('../fonts/Stolzl-Bold.svg#Stolzl-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'StolzM-BoldCondensed';
+  src: url('../fonts/StolzM-BoldCondensed.eot?#iefix') format('embedded-opentype'), url('../fonts/StolzM-BoldCondensed.otf') format('opentype'), url('../fonts/StolzM-BoldCondensed.woff') format('woff'), url('../fonts/StolzM-BoldCondensed.ttf') format('truetype'), url('../fonts/StolzM-BoldCondensed.svg#StolzM-BoldCondensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=_fonts.css.map */
