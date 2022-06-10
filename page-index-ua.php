@@ -697,7 +697,7 @@ while ( have_posts() ) {
                                  class="" alt="Slide">
                         </div>
                         <div class="carousel-item">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo7.png"
+                            <img src="<?php echo get_template_directory_uri() ?>/img/Titul_Inst-min.jpg"
                                  class="" alt="Slide">
                         </div>
                         <div class="carousel-item">
@@ -705,7 +705,11 @@ while ( have_posts() ) {
                                  class="" alt="Slide">
                         </div>
                         <div class="carousel-item">
-                            <img src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo9.png"
+                            <img src="<?php echo get_template_directory_uri() ?>/img/gal-photo-9a-min.jpg"
+                                 class="" alt="Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="<?php echo get_template_directory_uri() ?>/img/gal-photo10-min.jpg"
                                  class="" alt="Slide">
                         </div>
                     </div>
@@ -773,14 +777,17 @@ while ( have_posts() ) {
                 <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/05/index-gal-photo6.png"
                      data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/05/index-gal-photo6.png"
                      alt="School photo" class="img-item">
-                <img src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo7.png"
-                     data-src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo7.png"
+                <img src="<?php echo get_template_directory_uri() ?>/img/Titul_Inst-min.jpg"
+                     data-src="<?php echo get_template_directory_uri() ?>/img/Titul_Inst-min.jpg"
                      alt="School photo" class="img-item">
                 <img src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo8.png"
                      data-src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo8.png"
                      alt="School photo" class="img-item">
-                <img src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo9.png"
-                     data-src="<?php echo get_template_directory_uri() ?>/img/index-gal-photo9.png"
+                <img src="<?php echo get_template_directory_uri() ?>/img/gal-photo-9a-min.jpg"
+                     data-src="<?php echo get_template_directory_uri() ?>/img/gal-photo-9a-min.jpg"
+                     alt="School photo" class="img-item">
+                <img src="<?php echo get_template_directory_uri() ?>/img/gal-photo10-min.jpg"
+                     data-src="<?php echo get_template_directory_uri() ?>/img/gal-photo10-min.jpg"
                      alt="School photo" class="img-item">
             </div>
             <div class="i5">

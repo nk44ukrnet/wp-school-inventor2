@@ -265,8 +265,8 @@ while (have_posts()) {
             </div>
         </div>
         <picture class="image image3">
-            <source media="(max-width:1129px)" srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img3a-mob.png">
-            <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img3a.png" alt="inventor3">
+            <source media="(max-width:1129px)" srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-yard-long-min-mob.jpg" width="308" height="280">
+            <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-yard-long-min.jpg" width="1120" height="331" alt="inventor3">
         </picture>
         <picture class="image image4">
             <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img4.png" alt="inventor4">
