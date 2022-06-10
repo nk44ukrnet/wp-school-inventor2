@@ -2691,7 +2691,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .about-screen1 .about-content .about-item {
   max-width: 352px;
@@ -2704,7 +2704,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   padding: 26px 28px 30px 31px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 .about-screen1 .about-content .about-item .inner h3 {
@@ -2721,8 +2721,8 @@ footer.footer .footer-inner .footer-inner-item li a {
 }
 .about-screen1 .about-content .about-item .inner .text-btn .about-item-text {
   font-size: 14px;
-  opacity: 0;
-  height: 0;
+  opacity: 1;
+  height: auto;
   transition: all 0.25s ease;
 }
 .about-screen1 .about-content .about-item .inner .text-btn .about-item-text.about-item-text-active {
@@ -2732,7 +2732,7 @@ footer.footer .footer-inner .footer-inner-item li a {
 }
 .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   color: #00BDF2;
 }
 .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder .action-bar-trigger {
@@ -2740,6 +2740,13 @@ footer.footer .footer-inner .footer-inner-item li a {
 }
 .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder .action-bar-trigger:after {
   content: '↑';
+  display: none;
+}
+.about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder .visit-stem-site {
+  background: #FF0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 .about-screen1 .about-content .about-item:hover .inner .text-btn .about-item-text {
   opacity: 1;
@@ -2779,9 +2786,11 @@ footer.footer .footer-inner .footer-inner-item li a {
   .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder {
     justify-content: flex-end;
   }
-  .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder .visit-stem-site,
   .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder .more {
     display: none;
+  }
+  .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder .visit-stem-site {
+    display: block;
   }
   .about-screen1 .about-content .about-item .inner .text-btn .action-bar-holder .action-bar-trigger:after {
     content: '+';

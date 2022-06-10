@@ -34,7 +34,7 @@ get_header();
                             вчаться в різних класах.
                         </p>
                         <div class="action-bar-holder">
-                            <span><span class="more">Більше</span> <a href="#!" class="action-bar-trigger"></a></span>
+                            <span><a href="#!" class="action-bar-trigger"></a></span>
                         </div>
                     </div>
                 </div>
