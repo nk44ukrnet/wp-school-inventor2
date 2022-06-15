@@ -21,7 +21,7 @@ while (have_posts()) {
                     <strong>День відкритих дверей онлайн</strong>
                     <br>
                     <br>
-                    09 червня о 18.00
+                    01 липня о 19.00
                 </p>
                 <p>
                     Реєструйтеся за <a href="#!" data-bs-toggle="modal" data-bs-target="#contactEventPopup">посиланням</a>
