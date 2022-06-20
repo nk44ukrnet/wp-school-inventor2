@@ -12,7 +12,7 @@ while (have_posts()) {
 
     <section class="preschool_screen1">
         <div class="preschool_screen1_content">
-            <h1>Preschool <span>4-6 років</span></h1>
+            <h1>Садочок <span>4-6 років</span></h1>
             <h2>Inventor Preschool – це ліцензований дошкільний заклад повного дня, де ми готуємо дітей до школи,
                 навчаючись з LEGO.</h2>
             <div class="list">
@@ -25,13 +25,13 @@ while (have_posts()) {
                 </ul>
             </div>
             <div class="reg-area">
-                <a href="#!" data-bs-toggle="modal" data-bs-target="#contactPopup">Вступити до Прескул</a>
+                <a href="#!" data-bs-toggle="modal" data-bs-target="#contactPopup">Вступити до садочку</a>
             </div>
         </div>
     </section>
 
     <section class="preschool_develop">
-        <h2>Що ми розвиваємо у <span>Preschool</span></h2>
+        <h2>Що ми розвиваємо у <span>Садочку</span></h2>
         <div class="preschool_develop_content">
             <div class="preschool_develop_content-item">
                 <h3>💬👂🌟</h3>
