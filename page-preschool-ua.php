@@ -343,6 +343,45 @@ while ( have_posts() ) {
                 <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949051.jpg"
                      data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949051.jpg" alt="School photo"
                      class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949232.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949232.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949233.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949233.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949234.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949234.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949235.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949235.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949236.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949236.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949238.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949238.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949239.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949239.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949240.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949240.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949246.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949246.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949247.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949247.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949248.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949248.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949249.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949249.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949231.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949231.jpg" alt="School photo"
+                     class="img-item">
             </div>
         </div>
     </section>
