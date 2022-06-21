@@ -202,11 +202,16 @@ try {
 //LightGallery
 try {
     //index-ua bunch of photos
-
     lightGallery(document.getElementById('i-grid-update'));
     console.log('light gallery active')
 } catch (e) {
     console.log('lightgallery catch error')
+    console.log(e);
+}
+//preschool gallery1
+try {
+    lightGallery(document.getElementById('preschoolGallery1'));
+} catch (e) {
     console.log(e);
 }
 

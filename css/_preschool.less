@@ -28,6 +28,13 @@
       font-size: 16px;
       line-height: 19px;
     }
+    p {
+      width: 100%;
+      max-width: 500px;
+      font-weight: 400;
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
     .list {
       padding-top: 36px;
       ul {
@@ -961,7 +968,7 @@
         padding-bottom: 26px;
       }
       .title {
-        max-width: auto;
+        max-width: none;
         margin-right: 42px;
       }
       .desc {
@@ -1237,5 +1244,64 @@
     }
   }
 
+  });
+}
+
+.preschool-feedback {
+  &__container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 20px;
+    .mobile({
+      .font-size-3();
+    })
+  }
+  &__holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 350px));
+    justify-content: center;
+    gap: 10px;
+  }
+  &__item {
+    padding: 15px;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__title {
+    .font-size-4();
+    font-weight: 600;
+  }
+}
+
+.preschool-gallery {
+  &__container {
+
+  }
+  &__holder {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 200px));
+    justify-content: center;
+  }
+  .img-item {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .mobile({
+    &__holder {
+      gap: 5px;
+      grid-template-columns: repeat(auto-fill, minmax(min-content, 145px));
+    }
+    .img-item {
+      width: 145px;
+      height: 145px;
+    }
   });
 }

@@ -5538,6 +5538,13 @@ footer.footer .footer-inner .footer-inner-item li a {
   font-size: 16px;
   line-height: 19px;
 }
+.preschool_screen1 .preschool_screen1_content p {
+  width: 100%;
+  max-width: 500px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
 .preschool_screen1 .preschool_screen1_content .list {
   padding-top: 36px;
 }
@@ -6452,7 +6459,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   padding-bottom: 26px;
 }
 .preschool_place .text1 .stage .title {
-  max-width: auto;
+  max-width: none;
   margin-right: 42px;
 }
 .preschool_place .text1 .stage .desc {
@@ -6716,6 +6723,59 @@ footer.footer .footer-inner .footer-inner-item li a {
   .preschool_offer2 form .submit-group input[type="submit"] {
     width: 100%;
     border: transparent;
+  }
+}
+.preschool-feedback__container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.preschool-feedback h2 {
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .preschool-feedback h2 {
+    font: 600 2.4rem/2.9rem 'Stolzl-Regular', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+.preschool-feedback__holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 350px));
+  justify-content: center;
+  gap: 10px;
+}
+.preschool-feedback__item {
+  padding: 15px;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.preschool-feedback__title {
+  font: 600 1.6rem/1.92rem 'Stolzl-Regular', sans-serif;
+  font-weight: 600;
+}
+.preschool-gallery__holder {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 200px));
+  justify-content: center;
+}
+.preschool-gallery .img-item {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .preschool-gallery__holder {
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(min-content, 145px));
+  }
+  .preschool-gallery .img-item {
+    width: 145px;
+    height: 145px;
   }
 }
 .event_screen1 {

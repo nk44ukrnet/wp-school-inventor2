@@ -7,14 +7,26 @@ get_header();
 ?>
 
 <?php
-while (have_posts()) {
-    the_post(); ?>
+while ( have_posts() ) {
+	the_post(); ?>
 
     <section class="preschool_screen1">
         <div class="preschool_screen1_content">
             <h1>Садочок <span>4-6 років</span></h1>
             <h2>Inventor Preschool – це ліцензований дошкільний заклад повного дня, де ми готуємо дітей до школи,
                 навчаючись з LEGO.</h2>
+            <p>
+                Наш садочок для дітей, які активно пізнають світ, ставлять безмежну
+                кількість запитань та хочуть все знати і вміти.
+                <br><br>
+                На заняттях маленьких винахідників та винахідниць чекають розповіді
+                про світ науки та техніки, подорожі у космос, часи існування динозаврів таще дуже багато цікавого.
+                <br><br>
+                Кожен день – нові пригоди, які допоможуть дитині освоїти початкові
+                навички з математики, грамоти, англійської мови, розвинуть увагу,
+                пам’ять, логічне мислення , креативність та навчать взаємодіяти в
+                команді друзів.
+            </p>
             <div class="list">
                 <ul>
                     <li>для дітей 4-5 років</li>
@@ -42,7 +54,8 @@ while (have_posts()) {
             <div class="preschool_develop_content-item">
                 <h3>🎨🛠</h3>
                 <p>
-                    Технічні вміння та навички роботи з матеріалами: малювання, ліплення, аплікація, конструювання з паперу, викидних і природних матеріалів, LEGO®
+                    Технічні вміння та навички роботи з матеріалами: малювання, ліплення, аплікація, конструювання з
+                    паперу, викидних і природних матеріалів, LEGO®
                 </p>
             </div>
             <div class="preschool_develop_content-item">
@@ -87,7 +100,8 @@ while (have_posts()) {
                     <div class="item" data-bs-toggle="modal" data-bs-target="#knowPopup4">
                         Математика
                     </div>
-                    <a href="#!" class="more" data-bs-toggle="modal" data-bs-target="#knowPopupGeneral">Читати детальніше →</a>
+                    <a href="#!" class="more" data-bs-toggle="modal" data-bs-target="#knowPopupGeneral">Читати
+                        детальніше →</a>
                 </div>
             </div>
 
@@ -102,34 +116,50 @@ while (have_posts()) {
                 <div class="hover-content">
                     <h4>STEM-підхід </h4>
                     <p>
-                        STEM — це science + technology + engineering + math. Кожне інтегроване заняття поєднує освітні напрями та навчання основ грамоти, підготовку руки до письма. Дошкільнята вивчають взаємозалежність речей та явищ у світі, чергують різні види діяльності під час занять, читають та займаються мистецтвом. STEM-підхід сприяє формуванню основ інженерного та критичного мислення, креативності та загальної грамотності.
+                        STEM — це science + technology + engineering + math. Кожне інтегроване заняття поєднує освітні
+                        напрями та навчання основ грамоти, підготовку руки до письма. Дошкільнята вивчають
+                        взаємозалежність речей та явищ у світі, чергують різні види діяльності під час занять, читають
+                        та займаються мистецтвом. STEM-підхід сприяє формуванню основ інженерного та критичного
+                        мислення, креативності та загальної грамотності.
                     </p>
                 </div>
             </div>
             <div class="preschool_principles-item" data-sign="+">
-                 <h3>Навчання через гру</h3>
+                <h3>Навчання через гру</h3>
                 <div class="hover-content">
                     <h4>Навчання через гру</h4>
                     <p>
-                        Діти пізнають світ через гру. На заняттях вони вигадують, створюють, конструюють, експериментують — і одночасно набувають знань та вмінь, якими потім користуватимуться в житті. Ми балансуємо розумове, фізичне та емоційне навантаження з відпочинком. Серед занять — командні проєкти, екскурсії, дидактичні та сюжетні ігри й елементарні досліди. Плюс улюблений конструктор LEGO як універсальний інструмент пізнання та розвитку.
+                        Діти пізнають світ через гру. На заняттях вони вигадують, створюють, конструюють,
+                        експериментують — і одночасно набувають знань та вмінь, якими потім користуватимуться в житті.
+                        Ми балансуємо розумове, фізичне та емоційне навантаження з відпочинком. Серед занять — командні
+                        проєкти, екскурсії, дидактичні та сюжетні ігри й елементарні досліди. Плюс улюблений конструктор
+                        LEGO як універсальний інструмент пізнання та розвитку.
                     </p>
                 </div>
             </div>
             <div class="preschool_principles-item" data-sign="+">
-                 <h3>Повага до кожного</h3>
+                <h3>Повага до кожного</h3>
                 <div class="hover-content">
                     <h4>Повага до кожного</h4>
                     <p>
-                        Кожна дитина — особистість зі своїми потребами та вподобаннями, тож і розвиватися має власним неповторним шляхом і темпом. Ми приймаємо дітей такими, як вони є, і працюємо за персональним планом розвитку. Не зважаючи на вік, з перших днів перебування у Preschool ми ставимося до дітей як до дорослих, привчаємо поважати вибір та свободу одне одного, розвиваємо толерантність та розуміння власної неповторності.
+                        Кожна дитина — особистість зі своїми потребами та вподобаннями, тож і розвиватися має власним
+                        неповторним шляхом і темпом. Ми приймаємо дітей такими, як вони є, і працюємо за персональним
+                        планом розвитку. Не зважаючи на вік, з перших днів перебування у Preschool ми ставимося до дітей
+                        як до дорослих, привчаємо поважати вибір та свободу одне одного, розвиваємо толерантність та
+                        розуміння власної неповторності.
                     </p>
                 </div>
             </div>
             <div class="preschool_principles-item preschool_principles-item-active" data-sign="-">
-                 <h3>Синергія</h3>
+                <h3>Синергія</h3>
                 <div class="hover-content">
                     <h4>Синергія</h4>
                     <p>
-                        Ми налагоджуємо взаємодію між батьками, дітьми та педагогами. Діти, звісно, найважливіші учасники процесу, проте батьки також мають бути активними: цікавитися досягненнями дитини, відвідувати наші тренінги і брати участь у спільних заходах. У свою чергу педагоги — це викладачі-новатори, що постійно вивчають і впроваджують нові методики, орієнтуючись на вікові та психологічні особливості дітей.
+                        Ми налагоджуємо взаємодію між батьками, дітьми та педагогами. Діти, звісно, найважливіші
+                        учасники процесу, проте батьки також мають бути активними: цікавитися досягненнями дитини,
+                        відвідувати наші тренінги і брати участь у спільних заходах. У свою чергу педагоги — це
+                        викладачі-новатори, що постійно вивчають і впроваджують нові методики, орієнтуючись на вікові та
+                        психологічні особливості дітей.
                     </p>
                 </div>
             </div>
@@ -163,9 +193,12 @@ while (have_posts()) {
     <section class="preschool_schedule">
         <div class="intro">
             <h2>Розклад дня</h2>
-            <p>Inventor Preschool — дошкільна освіта повного дня. Ми розробили розклад так, щоб враховувати вікові особливості дітей та періоди їхньої працездатності протягом дня і тижня.
+            <p>Inventor Preschool — дошкільна освіта повного дня. Ми розробили розклад так, щоб враховувати вікові
+                особливості дітей та періоди їхньої працездатності протягом дня і тижня.
                 <br><br>
-                Тут діти повноцінно і здорово харчуються, вчаться, грають і відпочивають. Заняття з одного предмету тривають не більше 25 хвилин. Є інтегровані заняття, коли одночасно поєднуються різні види діяльності, STEM-технології та конструювання з LEGO — вони тривають від 45 до 60 хв.
+                Тут діти повноцінно і здорово харчуються, вчаться, грають і відпочивають. Заняття з одного предмету
+                тривають не більше 25 хвилин. Є інтегровані заняття, коли одночасно поєднуються різні види діяльності,
+                STEM-технології та конструювання з LEGO — вони тривають від 45 до 60 хв.
             </p>
         </div>
         <div class="schedule">
@@ -207,7 +240,7 @@ while (have_posts()) {
             </div>
             <div class="schedule-row">
                 <p>15.40 – 18.00</p>
-                <p>🔎    Пізнавальні, художні або спортивні заняття  </p>
+                <p>🔎 Пізнавальні, художні або спортивні заняття </p>
             </div>
             <div class="schedule-row">
                 <p>18:00 – 18:20</p>
@@ -215,64 +248,166 @@ while (have_posts()) {
             </div>
             <div class="schedule-row">
                 <p>18:20 – 19:00</p>
-                <p>🚶  Прогулянка: дидактичні та не надто рухливі ігри, повернення додому</p>
+                <p>🚶 Прогулянка: дидактичні та не надто рухливі ігри, повернення додому</p>
             </div>
             <div class="schedule-row">
                 <p></p>
-                <p>Це орієнтовний розклад. В кінці кожного тижня надсилаємо батькам звіт про те, що, чому і як діти робили цього тижня + анонс того, що робитимуть наступного. </p>
+                <p>Це орієнтовний розклад. В кінці кожного тижня надсилаємо батькам звіт про те, що, чому і як діти
+                    робили цього тижня + анонс того, що робитимуть наступного. </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="preschool-feedback">
+        <div class="preschool-feedback__container content-size padding-mobile">
+            <h2 class="font-size-2">Відгуки</h2>
+            <div class="preschool-feedback__holder">
+                <div class="preschool-feedback__item">
+                    <p class="preschool-feedback__text">Чудовий садок! Уважні вихователі, активне дозвілля на свіжому
+                        повітрі. Моя донька любить свій садок, йдуть із задоволенням, з радістю вихваляються своїми
+                        успіхами на заняттях, чи то конструювання, англійської, чи арт майстерні.</p>
+                    <h3 class="preschool-feedback__title">Мама Вікі</h3>
+                </div>
+                <div class="preschool-feedback__item">
+                    <p class="preschool-feedback__text">Дякуємо Preschool Inventor за плідну, високопрофесійну,
+                        злагоджену роботу всього колективу, за можливість спілкуватися дистанційно під час карантину:
+                        діти з нетерпінням чекали онлайн уроків і з задоволенням виконували різноманітні завдання.
+                        Завдяки цьому, діти не так гостро відчували ізоляцію.</p>
+                    <h3 class="preschool-feedback__title">Батьки Едуарда</h3>
+                </div>
+                <div class="preschool-feedback__item">
+                    <p class="preschool-feedback__text">Дуже добрий садочок! Можу рекомендувати усім: космічна
+                        атмосфера, в садочку моя дитина їсть все і задоволена. Я її не можу забрати ввечері – хоче
+                        продовжувати займатися і спілкуватися з друзями. Розібралася з механізмами, любить математику,
+                        логіку, англійську. А скільки у нас інформації із садка, завдяки щотижневим звітам від
+                        вихователів. Видно, що тут дітей люблять та чекають! Дякую!</p>
+                    <h3 class="preschool-feedback__title">Мама Дарини</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="preschool-gallery">
+        <div class="preschool-gallery__container content-size padding-mobile">
+            <div class="preschool-gallery__holder" id="preschoolGallery1">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949052.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949052.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949053.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949053.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949054.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949054.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949055.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949055.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949056.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949056.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949057.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949057.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949058.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949058.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949059.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949059.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949060.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949060.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949061.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949061.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949062.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949062.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949063.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949063.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949064.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949064.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949065.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949065.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949049.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949049.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949050.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949050.jpg" alt="School photo"
+                     class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949051.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949051.jpg" alt="School photo"
+                     class="img-item">
             </div>
         </div>
     </section>
 
     <section class="preschool_place">
         <div class="heading">
-            <h2><span>Улюблене</span> місце дитини  </h2>
+            <h2><span>Улюблене</span> місце дитини </h2>
         </div>
         <div class="text text1">
             <div class="stage">
                 <h3 class="title">Простір</h3>
                 <p class="desc">
-                    Ми організували простір, що трансформується під різні потреби дитини: для індивідуального навчання та навчання у групі, для гри, сну і спокійного проведення часу. Тут використано спеціально розроблені меблі та обладнання, передбачені виставкові та ігрові зони, місця для експериментів, арту, відпочинку.
+                    Ми організували простір, що трансформується під різні потреби дитини: для індивідуального навчання
+                    та навчання у групі, для гри, сну і спокійного проведення часу. Тут використано спеціально
+                    розроблені меблі та обладнання, передбачені виставкові та ігрові зони, місця для експериментів,
+                    арту, відпочинку.
                 </p>
             </div>
             <div class="stage">
                 <h3 class="title">Безпека</h3>
                 <p class="desc">
-                    Ми створювали Preschool так, щоб дітям в ній було комфортно і безпечно. Тут все продумано: розпорядок дня, харчування, навчальне навантаження, прогулянки на свіжому повітрі та чергування різних видів діяльності.
+                    Ми створювали Preschool так, щоб дітям в ній було комфортно і безпечно. Тут все продумано:
+                    розпорядок дня, харчування, навчальне навантаження, прогулянки на свіжому повітрі та чергування
+                    різних видів діяльності.
                 </p>
             </div>
         </div>
         <picture class="image image1">
-            <source media="(max-width:1129px)" srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img1a-mob.png">
+            <source media="(max-width:1129px)"
+                    srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img1a-mob.png">
             <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img1a.png" alt="inventor1">
         </picture>
         <picture class="image image2">
-            <source media="(max-width:1129px)" srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img2-mob.png">
+            <source media="(max-width:1129px)"
+                    srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img2-mob.png">
             <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img2.png" alt="inventor2">
         </picture>
         <div class="text text2">
             <div class="stage">
                 <h3 class="title">Харчування</h3>
                 <p class="desc">
-                    Тут немає напівфабрикатів, зате є салат-бар, бездріжджова кондитерська і регулярні оновлення. Батьки ж самі обирають різновид меню для дитини.
+                    Тут немає напівфабрикатів, зате є салат-бар, бездріжджова кондитерська і регулярні оновлення. Батьки
+                    ж самі обирають різновид меню для дитини.
                 </p>
             </div>
             <div class="stage">
                 <h3 class="title">Відпочинок</h3>
                 <p class="desc">
-                    Прогулянки на свіжому повітрі, тематичні свята, театральні вистави, розваги, відеоперегляди, презентації, спартакіади, дні іменинників та багато іншого. У теплу пору року ранкова гімнастика і заняття фізкультурою проводимо на свіжому повітрі
+                    Прогулянки на свіжому повітрі, тематичні свята, театральні вистави, розваги, відеоперегляди,
+                    презентації, спартакіади, дні іменинників та багато іншого. У теплу пору року ранкова гімнастика і
+                    заняття фізкультурою проводимо на свіжому повітрі
                 </p>
             </div>
         </div>
         <picture class="image image3">
-            <source media="(max-width:1129px)" srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-yard-long-min-mob.jpg" width="308" height="280">
-            <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-yard-long-min.jpg" width="1120" height="331" alt="inventor3">
+            <source media="(max-width:1129px)"
+                    srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-yard-long-min-mob.jpg" width="308"
+                    height="280">
+            <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-yard-long-min.jpg" width="1120" height="331"
+                 alt="inventor3">
         </picture>
         <picture class="image image4">
             <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img4.png" alt="inventor4">
         </picture>
         <picture class="image image5">
-            <source media="(max-width:1129px)" srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img5-mob.png">
+            <source media="(max-width:1129px)"
+                    srcset="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img5-mob.png">
             <img src="<?php echo get_theme_file_uri(); ?>/img/preschool-place-img5.png" alt="inventor5">
         </picture>
     </section>
@@ -323,9 +458,12 @@ while (have_posts()) {
                         <li>Можу висловлювати та пояснити свою думку</li>
                         <li>Маю багато запитань, пробую шукати на них відповіді та робити висновки</li>
                         <li>Маю розвинену уяву: фантазую, придумую, експериментую</li>
-                        <li>Можу проявляти наполегливість, ініціативу та цілеспрямованість, стараюся доводити розпочату справу до кінця</li>
+                        <li>Можу проявляти наполегливість, ініціативу та цілеспрямованість, стараюся доводити розпочату
+                            справу до кінця
+                        </li>
                         <li>Шукаю і знаходжу різні варіанти рішень</li>
-                        <li>Проявляю самостійність, можу обходитися без батьків довгий час, не потребую догляду няні</li>
+                        <li>Проявляю самостійність, можу обходитися без батьків довгий час, не потребую догляду няні
+                        </li>
                         <li>Вмію планувати свою роботу, визначати мету та досягати її</li>
                         <li>Маю початкові конструкторські вміння</li>
                         <li>Маю перші навички безпечного онлайнового спілкування</li>
@@ -434,9 +572,13 @@ while (have_posts()) {
                             <li>Можу висловлювати та пояснити свою думку</li>
                             <li>Маю багато запитань, пробую шукати на них відповіді та робити висновки</li>
                             <li>Маю розвинену уяву: фантазую, придумую, експериментую</li>
-                            <li>Можу проявляти наполегливість, ініціативу та цілеспрямованість, стараюся доводити розпочату справу до кінця</li>
+                            <li>Можу проявляти наполегливість, ініціативу та цілеспрямованість, стараюся доводити
+                                розпочату справу до кінця
+                            </li>
                             <li>Шукаю і знаходжу різні варіанти рішень</li>
-                            <li>Проявляю самостійність, можу обходитися без батьків довгий час, не потребую догляду няні</li>
+                            <li>Проявляю самостійність, можу обходитися без батьків довгий час, не потребую догляду
+                                няні
+                            </li>
                             <li>Вмію планувати свою роботу, визначати мету та досягати її</li>
                             <li>Маю початкові конструкторські вміння</li>
                             <li>Маю перші навички безпечного онлайнового спілкування</li>
@@ -464,7 +606,8 @@ while (have_posts()) {
                         </div>
                         <ul>
                             <li>Я маю елементарні уявлення про облаштування світу</li>
-                            <li>Співпрацюю з іншими дітьми: працюю в команді, вчуся домовлятися та об'єднувати зусилля</li>
+                            <li>Співпрацюю з іншими дітьми: працюю в команді, вчуся домовлятися та об'єднувати зусилля
+                            </li>
                             <li>Хочу дізнаватись нове, проявляю інтерес до всього, що навколо</li>
                             <li>Радію власним та спільним досягненням</li>
                             <li>Маю уявлення про природу, планету, країну та місто, різні професії</li>
@@ -492,7 +635,7 @@ while (have_posts()) {
     <!--End of resultPopup #-->
 
 
-    <?php
+	<?php
 }
 ?>
 
