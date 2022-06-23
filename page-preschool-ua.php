@@ -397,9 +397,6 @@ while ( have_posts() ) {
                 <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5305430409506570240.jpg"
                      data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5305430409506570240.jpg" alt="School photo"
                      class="img-item">
-                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5303392924265987810.jpg"
-                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5303392924265987810.jpg" alt="School photo"
-                     class="img-item">
                 <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5305430409506570242.jpg"
                      data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5305430409506570242.jpg" alt="School photo"
                      class="img-item">
