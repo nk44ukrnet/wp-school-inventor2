@@ -385,6 +385,9 @@ while ( have_posts() ) {
                 <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5303392924265987809.jpg"
                      data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5303392924265987809.jpg" alt="School photo"
                      class="img-item">
+                <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5303392924265987801.jpg"
+                     data-src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5303392924265987801.jpg" alt="School photo"
+                     class="img-item">
             </div>
         </div>
     </section>
