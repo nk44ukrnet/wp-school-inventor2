@@ -5535,8 +5535,8 @@ footer.footer .footer-inner .footer-inner-item li a {
   margin-bottom: 0;
   max-width: 457px;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 23px;
+  line-height: 150%;
 }
 .preschool_screen1 .preschool_screen1_content p {
   width: 100%;
@@ -5544,6 +5544,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 0px;
+  font-size: 20px;
 }
 .preschool_screen1 .preschool_screen1_content .list {
   padding-top: 36px;
@@ -5555,7 +5556,7 @@ footer.footer .footer-inner .footer-inner-item li a {
 }
 .preschool_screen1 .preschool_screen1_content .list ul li {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 128.3%;
   opacity: 0.85;
   position: relative;
@@ -5598,7 +5599,8 @@ footer.footer .footer-inner .footer-inner-item li a {
   color: #fff;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 21px 25px;
+  padding: 30px 40px;
+  font-size: 20px;
   box-shadow: 0px 3px 15px 7px rgba(255, 0, 0, 0.2);
   border-radius: 10px;
   margin-left: auto;
@@ -5632,9 +5634,9 @@ footer.footer .footer-inner .footer-inner-item li a {
 @media (max-width: 1044px) {
   .preschool_screen1 {
     padding-top: 33px;
-    padding-bottom: 247px;
+    padding-bottom: 0px;
     background-image: url(../img/preschool-screen1a-bg-mob.png);
-    background-position: bottom center;
+    background-position: bottom 150px center;
   }
   .preschool_screen1 .preschool_screen1_content h1 {
     max-width: 309px;
@@ -5651,6 +5653,9 @@ footer.footer .footer-inner .footer-inner-item li a {
     line-height: 19px;
     padding-top: 15px;
   }
+  .preschool_screen1 .preschool_screen1_content p {
+    font-size: 16px;
+  }
   .preschool_screen1 .preschool_screen1_content .list {
     padding-top: 29px;
     max-width: 240px;
@@ -5662,8 +5667,23 @@ footer.footer .footer-inner .footer-inner-item li a {
     font-family: 'Stolzl-Regular', sans-serif;
     padding-left: 52px;
   }
+  .preschool_screen1 .preschool_screen1_content .last-p {
+    margin-top: 266px;
+  }
   .preschool_screen1 .preschool_screen1_content .reg-area a {
     margin: 0 auto;
+    padding: 21px 25px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 388px) {
+  .preschool_screen1 {
+    background-position: bottom 180px center;
+  }
+}
+@media (max-width: 329px) {
+  .preschool_screen1 {
+    background-position: bottom 220px center;
   }
 }
 .preschool_develop {
