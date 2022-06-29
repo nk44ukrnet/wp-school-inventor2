@@ -5509,7 +5509,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   padding-top: 51px;
   padding-bottom: 49px;
   background-repeat: no-repeat;
-  background-image: url(../img/preschool-screen1-bg.png);
+  background-image: url(../img/preschool-screen1a-bg.png);
   background-position: top right;
   max-width: 1280px;
   margin: 0 auto;
@@ -5632,8 +5632,8 @@ footer.footer .footer-inner .footer-inner-item li a {
 @media (max-width: 1044px) {
   .preschool_screen1 {
     padding-top: 33px;
-    padding-bottom: 460px;
-    background-image: url(../img/preschool-screen1-bg-mob.png);
+    padding-bottom: 247px;
+    background-image: url(../img/preschool-screen1a-bg-mob.png);
     background-position: bottom center;
   }
   .preschool_screen1 .preschool_screen1_content h1 {
