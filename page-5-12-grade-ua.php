@@ -177,6 +177,9 @@ while (have_posts()) {
                         Сучасний власний стадіон для занять з фізичної культури
                     </div>
                     <div class="pricing-section__cell">
+                        Творчі гуртки, додаткові STEM – студіі та спортивні секції - 2 на тиждень за вибором
+                    </div>
+                    <div class="pricing-section__cell">
                         Супровід тьютора
                     </div>
                     <div class="pricing-section__cell">
@@ -200,9 +203,6 @@ while (have_posts()) {
                     </div>
                     <div class="pricing-section__cell">
                         Підготовка до міжнародних програм <br> World Robot Olympiad
-                    </div>
-                    <div class="pricing-section__cell">
-                        Творчі гуртки, додаткові STEM – студіі та спортивні секції - 2 на тиждень за вибором
                     </div>
                     <div class="pricing-section__cell">
                         Вивчення другої іноземної мови
