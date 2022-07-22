@@ -44,6 +44,45 @@ while ( have_posts() ) {
         </div>
     </section>
 
+    <div class="pricing-section">
+        <div class="pricing-section__container content-size padding-mobile">
+            <div class="pricing-section__holder">
+                <div class="pricing-section__item">
+                    <div class="pricing-section__cell pricing-section__cell_heading">18 000 грн.</div>
+                    <div class="pricing-section__cell">Щомісячно 18000 грн</div>
+                    <div class="pricing-section__cell">Щорічний внесок 20000 (можливість оплати семестрово)</div>
+                    <div class="pricing-section__cell">173 900  грн \ навчальний рік зі знижкою </div>
+                    <div class="pricing-section__cell">Перебування у дитячому садочку повний день  з 8:00-18:30</div>
+                    <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу </div>
+                    <div class="pricing-section__cell">Група не більше 16 дітей </div>
+                    <div class="pricing-section__cell">Заняття за авторськими програми згідно Державного стандарту: грамота, розвиток мовлення, я у довкіллі, англійська мова, фізичне виховання, музика, ейдетика та логоритміка, художня література і театралізація</div>
+                    <div class="pricing-section__cell">Поглиблене вивчення математики за сінгапурською програмою та з білінгвальним навчанням</div>
+                    <div class="pricing-section__cell">Вивчення англійської мови</div>
+                    <div class="pricing-section__cell">Підготовка до школи (з 5 років) </div>
+                    <div class="pricing-section__cell">Курс Наука за сінгапурською програмою</div>
+                    <div class="pricing-section__cell">Цікава інженерія</div>
+                    <div class="pricing-section__cell">Тренінг з емоційного інтелекту</div>
+                    <div class="pricing-section__cell">Арт простір з LEGO</div>
+                    <div class="pricing-section__cell">Арт майстерня</div>
+                    <div class="pricing-section__cell">Експерименти та відкриття</div>
+                    <div class="pricing-section__cell">Програмування Scratch Junior</div>
+                    <div class="pricing-section__cell">Ігрове середовище, обладнане конструкторами LEGO Education  та різноманітними розвивальними іграшками та наочними матеріалами</div>
+                    <div class="pricing-section__cell">Електронне освітнє середовище "1 учень – 1 iPad"</div>
+                    <div class="pricing-section__cell">Сучасний власний стадіон для занять з фізичної культури </div>
+                    <div class="pricing-section__cell">Медичний супровід</div>
+                    <div class="pricing-section__cell">Психологічний супровід</div>
+                    <div class="pricing-section__cell">Організація дозвілля та свят</div>
+                    <div class="pricing-section__cell">Охорона, відеоспостереження</div>
+                    <div class="pricing-section__cell pricing-section__cell_divider">Сплачується додатково</div>
+                    <div class="pricing-section__cell">Спеціалізоване дитяче харчування за вибором</div>
+                    <div class="pricing-section__cell">Перебування в черговій групі до 20.00 </div>
+                    <div class="pricing-section__cell">Підготовка до міжнародних програм FIRST LEGO Discovery</div>
+                    <div class="pricing-section__cell pricing-section__cell_cta"><a href="#!" class="btn-cta" data-bs-toggle="modal" data-bs-target="#contactPopup">ЗАПОВНИТИ АНКЕТУ</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <section class="preschool_develop">
         <h2>Що ми розвиваємо у <span>Садочку</span></h2>
         <div class="preschool_develop_content">

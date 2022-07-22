@@ -15,7 +15,7 @@ while (have_posts()) {
         <h1>
             <span>1-4 класи:</span> <br>
             відкриваємо світ <br>
-            і спонукаємо шукати <br>
+            і спонукаємо шукати <br>
             відповіді
         </h1>
         <ul>
@@ -26,6 +26,73 @@ while (have_posts()) {
         <div class="school-entry">
             <p class="date">Старт навчання 01.09.2022</p>
             <a href="#!" class="btn-entry" data-bs-toggle="modal" data-bs-target="#contactPopup">Вступити до школи</a>
+        </div>
+    </div>
+
+    <div class="pricing-section">
+        <div class="pricing-section__container content-size padding-mobile">
+            <div class="pricing-section__holder">
+                <div class="pricing-section__item">
+                    <div class="pricing-section__cell pricing-section__cell_heading">22 500 грн.</div>
+                    <div class="pricing-section__cell">Щомісячно 22 500 грн</div>
+                    <div class="pricing-section__cell">Щорічний внесок 26 500 (можливість оплати семестрово)</div>
+                    <div class="pricing-section__cell">219 000 грн \ навчальний рік зі знижкою</div>
+                    <div class="pricing-section__cell">Перебування у школі повний навчальний день  з 8:00-16:00</div>
+                    <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу</div>
+                    <div class="pricing-section__cell">Класи не більше 20 учнів</div>
+                    <div class="pricing-section__cell">Електронне освітнє середовище "1 учень – 1 iPad"</div>
+                    <div class="pricing-section__cell">Високотехнологічне сучасне оснащення школи</div>
+                    <div class="pricing-section__cell">Можливість підключатися до онлан-навчання в разі відсутності в школі</div>
+                    <div class="pricing-section__cell">Авторські програми з усіх предметів Державного стандарту</div>
+                    <div class="pricing-section__cell">Поглиблене вивчення математики за сінгапурською програмою та з білінгвальним навчанням </div>
+                    <div class="pricing-section__cell">Поглиблене вивчення англійської мови</div>
+                    <div class="pricing-section__cell">Поглиблене вивчення української мови і літератури за авторською методикою </div>
+                    <div class="pricing-section__cell">Робототехніка , Основи механіки, Програмування Minecraft:EE, Kid’s project</div>
+                    <div class="pricing-section__cell">Курс фінансової грамотності і підприємництва </div>
+                    <div class="pricing-section__cell">Авторська система роботи з емоційним інтелектом та розвитком SOFT-скілів дітей</div>
+                    <div class="pricing-section__cell">Сучасний власний стадіон для занять з фізичної культури </div>
+                    <div class="pricing-section__cell">Медичний супровід</div>
+                    <div class="pricing-section__cell">Психологічний супровід</div>
+                    <div class="pricing-section__cell">Позаурочне дозвілля</div>
+                    <div class="pricing-section__cell">Охорона, відеоспостереження</div>
+                    <div class="pricing-section__cell pricing-section__cell_divider">Сплачується додатково</div>
+                    <div class="pricing-section__cell">Спеціалізоване дитяче харчування за вибором </div>
+                    <div class="pricing-section__cell">Підготовка до  міжнародних програма World Robot Olympiad та  FIRST LEGO League</div>
+                    <div class="pricing-section__cell">Творчі гуртки та спортивні секції</div>
+                    <div class="pricing-section__cell">Група продовженого дня</div>
+                    <div class="pricing-section__cell pricing-section__cell_cta"><a href="#!" class="btn-cta" data-bs-toggle="modal" data-bs-target="#contactPopup">ЗАПОВНИТИ АНКЕТУ</a></div>
+                </div>
+                <div class="pricing-section__item">
+                    <div class="pricing-section__cell pricing-section__cell_heading">26 500 грн.</div>
+                    <div class="pricing-section__cell">Щомісячно 26 500 грн</div>
+                    <div class="pricing-section__cell">Щорічний внесок 26 500 (можливість оплати семестрово)</div>
+                    <div class="pricing-section__cell">253 000 грн \ навчальний рік зі знижкою </div>
+                    <div class="pricing-section__cell">Перебування у школі повний навчальний день  з 8:00 -18:00</div>
+                    <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу</div>
+                    <div class="pricing-section__cell">Класи не більше 20 учнів</div>
+                    <div class="pricing-section__cell">Електронне освітнє середовище "1 учень – 1 iPad"</div>
+                    <div class="pricing-section__cell">Високотехнологічне оснащення школи</div>
+                    <div class="pricing-section__cell">Можливість підключатися до онлан-навчання в разі відсутності в школі</div>
+                    <div class="pricing-section__cell">Авторські програми з усіх предметів Державного стандарту</div>
+                    <div class="pricing-section__cell">Поглиблене вивчення математики за сінгапурською програмою та з білінгвальним навчанням</div>
+                    <div class="pricing-section__cell">Поглиблене вивчення англійської мови</div>
+                    <div class="pricing-section__cell">Поглиблене вивчення української мови і літератури за авторською методикою</div>
+                    <div class="pricing-section__cell">Робототехніка , Основи механіки, Програмування Minecraft:EE, Kid’s project</div>
+                    <div class="pricing-section__cell">Курс фінансової грамотності і підприємництва</div>
+                    <div class="pricing-section__cell">Авторська система роботи з емоційним інтелектом та розвитком SOFT-скілів дітей</div>
+                    <div class="pricing-section__cell">Сучасний власний стадіон для занять з фізичної культури</div>
+                    <div class="pricing-section__cell">Творчі гуртки та спортивні секції  - 2 гуртка на тиждень за вибором</div>
+                    <div class="pricing-section__cell">Група продовженого </div>
+                    <div class="pricing-section__cell">Медичний супровід</div>
+                    <div class="pricing-section__cell">Психологічний супровід</div>
+                    <div class="pricing-section__cell">Позаурочне дозвілля</div>
+                    <div class="pricing-section__cell">Охорона, відеоспостереження </div>
+                    <div class="pricing-section__cell pricing-section__cell_divider">Сплачується додатково</div>
+                    <div class="pricing-section__cell">Спеціалізоване дитяче харчування за вибором</div>
+                    <div class="pricing-section__cell">Підготовка до  міжнародних програма World Robot Olympiad та  FIRST LEGO League</div>
+                    <div class="pricing-section__cell pricing-section__cell_cta"><a href="#!" class="btn-cta" data-bs-toggle="modal" data-bs-target="#contactPopup">ЗАПОВНИТИ АНКЕТУ</a></div>
+                </div>
+            </div>
         </div>
     </div>
 
