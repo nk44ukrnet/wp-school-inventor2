@@ -38,7 +38,7 @@ while (have_posts()) {
             <div class="pricing-section__holder">
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">22 500 грн.</div>
-                    <div class="pricing-section__cell">Щомісячно 22500 грн</div>
+                    <div class="pricing-section__cell">Щомісячно 22 500 грн</div>
                     <div class="pricing-section__cell">
                         Щорічний внесок 265 000 грн (можливість оплати семестрово)
                     </div>
@@ -125,9 +125,8 @@ while (have_posts()) {
                 </div>
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">26 500 грн.</div>
-                    <div class="pricing-section__cell"></div>
                     <div class="pricing-section__cell">
-                        Щомісячно 26500 грн
+                        Щомісячно 26 500 грн
                     </div>
                     <div class="pricing-section__cell">
                         Щорічний внесок 265 000 грн \можливість оплати семестрово\
