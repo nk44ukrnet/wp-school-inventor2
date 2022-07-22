@@ -40,10 +40,7 @@ while (have_posts()) {
                     <div class="pricing-section__cell pricing-section__cell_heading">22 500 грн.</div>
                     <div class="pricing-section__cell">Щомісячно 22500 грн</div>
                     <div class="pricing-section__cell">
-                        Щомісячно 22500 грн
-                    </div>
-                    <div class="pricing-section__cell">
-                        Щорічний внесок 26500 (можливість оплати семестрово)
+                        Щорічний внесок 265 000 грн (можливість оплати семестрово)
                     </div>
                     <div class="pricing-section__cell">
                         219 000 грн \ навчальний рік зі знижкою
@@ -82,7 +79,7 @@ while (have_posts()) {
                         Робототехніка , Програмування
                     </div>
                     <div class="pricing-section__cell">
-                        Підготовка до міжнародних програм World Robot Olympiad та FIRST LEGO League
+                        Підготовка до міжнародних програм <br> World Robot Olympiad та FIRST LEGO League
                     </div>
                     <div class="pricing-section__cell">
                         Авторська система роботи з емоційним інтелектом та розвитком SOFT-скілів дітей
@@ -110,7 +107,7 @@ while (have_posts()) {
                         Творчі гуртки, додаткові STEM – студіі та спортивні секції
                     </div>
                     <div class="pricing-section__cell">
-                        Підготовка до міжнародних програм World Robot Olympiad
+                        Підготовка до міжнародних програм <br> World Robot Olympiad
                     </div>
                     <div class="pricing-section__cell">
                         Супровід тьютора
@@ -133,7 +130,7 @@ while (have_posts()) {
                         Щомісячно 26500 грн
                     </div>
                     <div class="pricing-section__cell">
-                        Щорічний внесок 26500 \можливість оплати семестрово\
+                        Щорічний внесок 265 000 грн \можливість оплати семестрово\
                     </div>
                     <div class="pricing-section__cell">
                         253 000 грн \ навчальний рік зі знижкою
@@ -199,12 +196,11 @@ while (have_posts()) {
                         Охорона, відеоспостереження
                     </div>
                     <div class="pricing-section__cell pricing-section__cell_divider">Сплачується додатково</div>
-                    <div class="pricing-section__cell"></div>
                     <div class="pricing-section__cell">
                         Спеціалізоване дитяче харчування за вибором
                     </div>
                     <div class="pricing-section__cell">
-                        Підготовка до міжнародних програм World Robot Olympiad
+                        Підготовка до міжнародних програм <br> World Robot Olympiad
                     </div>
                     <div class="pricing-section__cell">
                         Творчі гуртки, додаткові STEM – студіі та спортивні секції - 2 на тиждень за вибором
@@ -239,7 +235,7 @@ while (have_posts()) {
             </div>
             <div class="result-right">
                 <div class="result-item" data-bs-toggle="modal" data-bs-target="#resultPopup4">
-                    Інформація і технології
+                    Інформація і технології
                 </div>
                 <div class="result-item" data-bs-toggle="modal" data-bs-target="#resultPopup5">
                     Власне «я» і соціум
