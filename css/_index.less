@@ -5,7 +5,7 @@
   //background-image: url("../img/index-screen1.png");
   background-image: url("../img/index-screen1-bg2.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: top right;
 
   .content {
     .content-size();
@@ -32,32 +32,39 @@
       padding: 0;
       margin: 0;
       display: flex;
+      flex-direction: column;
       justify-content: space-between;
       flex-wrap: wrap;
-      padding-left: 3rem;
+      padding-left: 0;
 
       li {
         max-width: 22rem;
+        max-width: none;
         font: 500 14px/17px @fontMedium;
         margin-bottom: 3.8rem;
         position: relative;
+        font: 500 2.5rem/2.7rem @fontMedium;
 
         a {
           display: block;
           margin-top: 5px;
-          font-size: 12px;
+          //font-size: 12px;
+          font-size: inherit;
           line-height: 1;
           font-weight: 400;
         }
 
         &:before {
           content: '';
-          width: 2.2rem;
-          height: 2.1rem;
+          //width: 2.2rem;
+          //height: 2.1rem;
+          width: 3.2rem;
+          height: 3.2rem;
           position: absolute;
           display: block;
           top: .5rem;
-          left: -3rem;
+          //left: -3rem;
+          left: -4.5rem;
           background-repeat: no-repeat;
           background-size: contain;
         }
