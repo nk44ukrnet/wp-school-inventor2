@@ -20,10 +20,10 @@ while ( have_posts() ) {
                 <!--                <li>Готуємо до вступу до міжнародних ВНЗ</li>-->
                 <!--                <li>Надаємо можливість отримати американський атестат</li>-->
                 <!--                <li>Працюємо над становленням особистості дитини</li>-->
-                <li>Preschool 4-5 років <a href="https://school.inventorschool.org.ua/preschool/">вартість навчання та програма</a></li>
+                <li>Садочок 4-5 років <a href="https://school.inventorschool.org.ua/preschool/">вартість навчання та програма</a></li>
+                <li>Садочок (Preschool) 5-6 років <a href="https://school.inventorschool.org.ua/preschool/">вартість навчання та програма</a></li>
                 <li>Початкова школа 1-4 класи <a href="https://school.inventorschool.org.ua/grades1-4/">вартість навчання та програма</a></li>
-                <li>Preschool 5-6 років <a href="https://school.inventorschool.org.ua/preschool/">вартість навчання та програма</a></li>
-                <li>Середня школа 5-9 класи <a href="https://school.inventorschool.org.ua/5-12-grades/">вартість навчання та програма</a></li>
+                <li>Середня школа 6-9 класи <a href="https://school.inventorschool.org.ua/5-12-grades/">вартість навчання та програма</a></li>
             </ul>
             <!--            <p class="assign">-->
             <!--                Навчання проводиться в школі повного дня та школах неповного дня-->

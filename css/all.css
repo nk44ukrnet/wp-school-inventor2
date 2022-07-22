@@ -734,6 +734,8 @@ footer.footer .footer-inner .footer-inner-item li a {
   font-size: inherit;
   line-height: 1;
   font-weight: 400;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .index-screen1 .content ul li:before {
   content: '';
