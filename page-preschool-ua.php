@@ -46,12 +46,26 @@ while ( have_posts() ) {
 
     <div class="pricing-section">
         <div class="pricing-section__container content-size padding-mobile">
+
+            <div class="pricing-section__discount">
+                <div class="pricing-section__block">
+                    <p>знижка</p>
+                    <strong>5%</strong>
+                    на другу дитину
+                </div>
+                <div class="pricing-section__block">
+                    <p>знижка</p>
+                    <strong>2%</strong>
+                    при оплаті за семестр
+                </div>
+            </div>
+
             <div class="pricing-section__holder">
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">18 000 грн.</div>
                     <div class="pricing-section__cell">Щомісячно 18 000 грн</div>
                     <div class="pricing-section__cell">Щорічний внесок 20 000 грн (можливість оплати семестрово)</div>
-                    <div class="pricing-section__cell">173 900  грн \ навчальний рік зі знижкою </div>
+<!--                    <div class="pricing-section__cell">173 900  грн \ навчальний рік зі знижкою </div>-->
                     <div class="pricing-section__cell">Перебування у дитячому садочку повний день  з 8:00-18:30</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу </div>
                     <div class="pricing-section__cell">Група не більше 16 дітей </div>

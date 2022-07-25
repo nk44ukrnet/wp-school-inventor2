@@ -222,6 +222,30 @@ a:hover {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.pricing-section__discount {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.pricing-section__block {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: center;
+  background-color: #E6F8FE;
+  justify-content: center;
+}
+.pricing-section__block p {
+  margin: 0;
+  padding: 0;
+}
+.pricing-section__block strong {
+  font-size: 25px;
+}
 .pricing-section__holder {
   display: flex;
   flex-wrap: wrap;
@@ -270,6 +294,15 @@ a:hover {
 }
 .pricing-section__cell_cta .btn-cta {
   padding: 20px 40px;
+}
+@media (max-width: 768px) {
+  .pricing-section__block {
+    max-width: 150px;
+    padding: 10px;
+  }
+  .pricing-section__discount {
+    gap: 10px;
+  }
 }
 @keyframes hideh2 {
   0% {

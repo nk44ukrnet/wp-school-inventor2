@@ -60,7 +60,7 @@ get_header();
                         </p>
                         <div class="action-bar-holder">
                             <a href="#!" class="action-bar-trigger"></a>
-                            <a href="//inventorschool.org.ua" target="_blank" class="visit-stem-site">Сайт
+                            <a href="//inventorschool.org.ua/#no-popup" target="_blank" class="visit-stem-site">Сайт
                                 STEM-школи</a>
                         </div>
                     </div>

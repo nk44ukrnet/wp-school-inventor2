@@ -181,6 +181,34 @@ a {
 
   }
 
+  &__discount {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  &__block {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: center;
+    background-color: @semiBlueColor1;
+    justify-content: center;
+
+    p {
+      margin: 0;
+      padding: 0;
+    }
+
+    strong {
+      font-size: 25px;
+    }
+  }
+
   &__holder {
     display: flex;
     flex-wrap: wrap;
@@ -233,7 +261,18 @@ a {
       .btn-cta {
         padding: 20px 40px;
       }
+
       border-bottom: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__block {
+      max-width: 150px;
+      padding: 10px;
+    }
+    &__discount {
+      gap: 10px;
     }
   }
 }
