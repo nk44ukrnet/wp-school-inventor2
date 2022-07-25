@@ -55,12 +55,11 @@ while ( have_posts() ) {
                     <div class="pricing-section__cell">Перебування у дитячому садочку повний день  з 8:00-18:30</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу </div>
                     <div class="pricing-section__cell">Група не більше 16 дітей </div>
-                    <div class="pricing-section__cell">Спеціалізоване дитяче харчування за вибором</div>
                     <div class="pricing-section__cell">Заняття за авторськими програми згідно Державного стандарту: грамота, розвиток мовлення, я у довкіллі, англійська мова, фізичне виховання, музика, ейдетика та логоритміка, художня література і театралізація</div>
                     <div class="pricing-section__cell">Поглиблене вивчення математики за сінгапурською програмою та з білінгвальним навчанням</div>
                     <div class="pricing-section__cell">Вивчення англійської мови</div>
                     <div class="pricing-section__cell">Підготовка до школи (з 5 років) </div>
-                    <div class="pricing-section__cell">Курс Наука за сінгапурською програмою</div>
+                    <div class="pricing-section__cell">Курс Наука</div>
                     <div class="pricing-section__cell">Цікава інженерія</div>
                     <div class="pricing-section__cell">Тренінг з емоційного інтелекту</div>
                     <div class="pricing-section__cell">Арт простір з LEGO</div>
@@ -76,7 +75,8 @@ while ( have_posts() ) {
                     <div class="pricing-section__cell">Охорона, відеоспостереження</div>
                     <div class="pricing-section__cell pricing-section__cell_divider">Сплачується додатково</div>
                     <div class="pricing-section__cell">Перебування в черговій групі до 20.00 </div>
-                    <div class="pricing-section__cell">Підготовка до міжнародних програм <br> FIRST LEGO Discovery</div>
+                    <div class="pricing-section__cell">Спеціалізоване дитяче харчування за вибором</div>
+                    <div class="pricing-section__cell">Підготовка до міжнародних програм <br> FIRST LEGO League Discover</div>
                     <div class="pricing-section__cell pricing-section__cell_cta"><a href="#!" class="btn-cta" data-bs-toggle="modal" data-bs-target="#contactPopup">ЗАПОВНИТИ АНКЕТУ</a></div>
                 </div>
             </div>
