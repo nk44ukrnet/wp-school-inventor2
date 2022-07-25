@@ -49,7 +49,7 @@ while (have_posts()) {
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">22 500 грн.</div>
                     <div class="pricing-section__cell">Щомісячно 22 500 грн</div>
-<!--                    <div class="pricing-section__cell">Щорічний внесок 26 500 грн (можливість оплати семестрово)</div>-->
+                    <div class="pricing-section__cell">Щорічний внесок 26 500 грн (можливість оплати семестрово)</div>
 <!--                    <div class="pricing-section__cell">219 000 грн \ навчальний рік зі знижкою</div>-->
                     <div class="pricing-section__cell">Перебування у школі неповний навчальний день  з 8:00-16:00</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу</div>
@@ -79,7 +79,7 @@ while (have_posts()) {
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">26 500 грн.</div>
                     <div class="pricing-section__cell">Щомісячно 26 500 грн</div>
-<!--                    <div class="pricing-section__cell">Щорічний внесок 26 500 грн (можливість оплати семестрово)</div>-->
+                    <div class="pricing-section__cell">Щорічний внесок 26 500 грн (можливість оплати семестрово)</div>
 <!--                    <div class="pricing-section__cell">253 000 грн \ навчальний рік зі знижкою </div>-->
                     <div class="pricing-section__cell">Перебування у школі повний навчальний день  з 8:00 -18:00</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу</div>
