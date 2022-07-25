@@ -37,7 +37,7 @@ while (have_posts()) {
                     <div class="pricing-section__cell">Щомісячно 22 500 грн</div>
                     <div class="pricing-section__cell">Щорічний внесок 26 500 грн (можливість оплати семестрово)</div>
                     <div class="pricing-section__cell">219 000 грн \ навчальний рік зі знижкою</div>
-                    <div class="pricing-section__cell">Перебування у школі повний навчальний день  з 8:00-16:00</div>
+                    <div class="pricing-section__cell">Перебування у школі неповний навчальний день  з 8:00-16:00</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу</div>
                     <div class="pricing-section__cell">Класи не більше 20 учнів</div>
                     <div class="pricing-section__cell">Електронне освітнє середовище "1 учень – 1 iPad"</div>
