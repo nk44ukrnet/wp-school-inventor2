@@ -93,7 +93,7 @@ while (have_posts()) {
                         Робототехніка , Програмування
                     </div>
                     <div class="pricing-section__cell">
-                        Підготовка до міжнародних програм <br> World Robot Olympiad та FIRST LEGO League
+                        Підготовка до міжнародних програм <br> FIRST LEGO League
                     </div>
                     <div class="pricing-section__cell">
                         Авторська система роботи з емоційним інтелектом та розвитком SOFT-скілів дітей
