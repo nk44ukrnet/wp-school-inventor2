@@ -57,7 +57,7 @@ while (have_posts()) {
                     <div class="pricing-section__cell">Електронне освітнє середовище "1 учень – 1 iPad"</div>
                     <div class="pricing-section__cell">Високотехнологічне сучасне оснащення школи</div>
                     <div class="pricing-section__cell">Можливість підключатися до онлан-навчання в разі відсутності в школі</div>
-                    <div class="pricing-section__cell">Авторські програми з усіх предметів згідно Державного стандарту 2</div>
+                    <div class="pricing-section__cell">Авторські програми з усіх предметів згідно з Державним стандартом</div>
                     <div class="pricing-section__cell">Поглиблене вивчення математики за сінгапурською програмою та з білінгвальним навчанням </div>
                     <div class="pricing-section__cell">Поглиблене вивчення англійської мови</div>
                     <div class="pricing-section__cell">Поглиблене вивчення української мови і літератури за авторською методикою </div>
@@ -87,7 +87,7 @@ while (have_posts()) {
                     <div class="pricing-section__cell">Електронне освітнє середовище "1 учень – 1 iPad"</div>
                     <div class="pricing-section__cell">Високотехнологічне оснащення школи</div>
                     <div class="pricing-section__cell">Можливість підключатися до онлан-навчання в разі відсутності в школі</div>
-                    <div class="pricing-section__cell">Авторські програми з усіх предметів згідно Державного стандарту 2</div>
+                    <div class="pricing-section__cell">Авторські програми з усіх предметів згідно з Державним стандартом</div>
                     <div class="pricing-section__cell">Поглиблене вивчення математики за сінгапурською програмою та з білінгвальним навчанням</div>
                     <div class="pricing-section__cell">Поглиблене вивчення англійської мови</div>
                     <div class="pricing-section__cell">Поглиблене вивчення української мови і літератури за авторською методикою</div>
