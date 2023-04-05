@@ -1,0 +1,54 @@
+.custom-wrapper {
+  padding-bottom: 50px;
+}
+
+.custom-screen1 {
+  margin-block: 50px 0px;
+
+  .content-size {
+    padding-bottom: 50px;
+    background-size: 500px;
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+
+  &__content {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .btn-cta {
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 1015px) {
+
+    text-align: center;
+
+    .content-size {
+      padding-bottom: 300px;
+      background-position: bottom center;
+      background-size: 360px;
+    }
+
+    &__content {
+      margin-inline: auto;
+    }
+  }
+}
+
+.custom-section {
+  padding-block: 50px;
+
+  p {
+    line-height: 150%;
+  }
+
+  &_bg {
+    background-color: @semiBlueColor1;
+  }
+}

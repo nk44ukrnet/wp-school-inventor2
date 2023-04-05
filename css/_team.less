@@ -1,0 +1,237 @@
+.team-ceo {
+  .content-size();
+  background-repeat: no-repeat;
+  background-image: url(../img/team-ceo-bg.svg);
+  background-position-y: 50px;
+  padding-top: 50px;
+  padding-bottom: 172px; //122
+  h1 {
+    text-align: center;
+    letter-spacing: -.02em;
+    font: 600 60px @fontRegular;
+    padding-bottom: 58px;
+  }
+  .team-ceo-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .team-ceo-box-item {
+      width: 100%;
+      max-width: 352px;
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        //border-radius: 50%;
+      }
+      .subtitle, .desc {
+        max-width: 302px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .subtitle {
+        letter-spacing: -.02em;
+        font-size: 18px;
+        padding-bottom: 21px;
+        padding-top: 29px;
+      }
+      .desc {
+        font-size: 12px;
+      }
+    }
+  }
+  .mobile-sized(1138px, {
+    .padding-mobile();
+  });
+  .mobile-sized(1101px, {
+    padding-top: 236px;
+    background-position-y: 45px;
+    background-image: url(../img/team-ceo-bg-mob.svg);
+    background-position-x: 130%;
+    padding-bottom: 20px;
+    h1 {
+    font-size: 40px;
+      padding-bottom: 36px;
+    }
+    .team-ceo-box {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .team-ceo-box-item {
+        margin-bottom: 32px;
+        max-width: 309px;
+        .subtitle {
+          padding-top: 24px;
+          padding-bottom: 14px;
+        }
+      }
+    }
+  });
+}
+
+.team-dev, .team-admin, .team-teacher {
+  .content-size();
+  h2 {
+    font: 600 60px @fontRegular;
+    letter-spacing: -.02em;
+    padding-bottom: 58px;
+    text-align: center;
+  }
+  .team-dev-box, .team-admin-box, .team-teacher-box {
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: space-between;
+    column-gap: 32px;
+    .team-dev-box-column, .team-admin-box-column, .team-teacher-box-column {
+      max-width: 352px;
+      width: 100%;
+      .team-dev-box-column-item, .team-admin-box-column-item, .team-teacher-box-column-item {
+        max-width: 352px;
+        width: 100%;
+        .img-holder {
+          position: relative;
+          img {
+            max-width: 352px;
+            width: 100%;
+            display: block;
+            object-fit: contain;
+            height: auto;
+            //border-radius: 50%;
+            transition: all .1s linear;
+          }
+          &:hover {
+            &:before {
+              content: '';
+              position: absolute;
+              width: 385px;
+              height: 436px;
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-image: url(../img/team-hover-1.svg);
+              top: -40px;
+              left: 0px;
+            }
+            img {
+              border-radius: 50%;
+            }
+          }
+        }
+        .subtitle, .desc {
+          max-width: 310px;
+          width: 100%;
+          margin: 0 auto;
+        }
+        .subtitle {
+          letter-spacing: -.02em;
+          font-size: 18px;
+          padding-top: 27px;
+          padding-bottom: 19px;
+        }
+        .desc {
+          font-size: 12px;
+          padding-bottom: 58px;
+        }
+      }
+    }
+  }
+  .mobile-sized(1152px, {
+    .padding-mobile();
+    h2 {
+      font-size: 40px;
+      padding-bottom: 36px;
+    }
+    .team-dev-box, .team-admin-box, .team-teacher-box {
+      flex-direction: column;
+      max-width: 309px;
+      width: 100%;
+      margin: 0 auto;
+      .team-dev-box-column, .team-admin-box-column, .team-teacher-box-column {
+        .team-dev-box-column-item, .team-admin-box-column-item, .team-teacher-box-column-item {
+          .img-holder {
+            img {
+              //border-radius: 50%;
+            }
+            &:hover {
+              &:before {
+                display: none;
+              }
+              img {
+                border-radius: 50%;
+              }
+            }
+          }
+          .subtitle {
+            padding-top: 25px;
+            padding-bottom: 14px;
+            font-size: 18px;
+          }
+          .desc {
+            font-size: 12px;
+            padding-bottom: 35px;
+          }
+        }
+      }
+    }
+  });
+}
+
+.team-dev {
+  margin-top: -60px;
+  .mobile-sized(1152px, {
+    margin-top:0;
+  });
+}
+.team-admin {
+  background-repeat: no-repeat;
+  background-image: url(../img/team-admin-bg.svg);
+  background-position: bottom 78px right;
+  h2 {
+    position: relative;
+    &:before {
+      content: '';
+      width: 157px;
+      height: 105px;
+      position: absolute;
+      display: block;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(../img/team-admin-h2-before.svg);
+      top: -20px;
+      left: 91px;
+    }
+    &:after {
+      content: '';
+      width: 156px;
+      height: 110px;
+      position: absolute;
+      display: block;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url(../img/team-admin-h2-after.svg);
+      top: 45px;
+      right: -30px;
+      z-index: 2;
+    }
+  }
+  .mobile-sized(1183px,{
+    padding-top: 50px;
+    h2 {
+      &:before {
+        width: 109px;
+        height: 72px;
+        left:0;
+        top: -75px;
+      }
+      &:after {
+        display: none;
+      }
+    }
+  });
+  .mobile-sized(1152px,{
+    background-image: none;
+  });
+}
+.team-teacher {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}

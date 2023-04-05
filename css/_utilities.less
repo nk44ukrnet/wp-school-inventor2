@@ -1,0 +1,34 @@
+.colored {
+  color: @semiBlueColor2;
+}
+
+.ul-elements {
+  list-style-type: none;
+  li {
+    position: relative;
+    margin-bottom: 10px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 21px;
+      height: 21px;
+      top: 0;
+      left: 0;
+      background-image: url(../img/preschool-screen1-li-4.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      transform: translateX(-120%);
+    }
+
+    &:nth-child(3n+1):before {
+      background-image: url(../img/index-screen1-bullet3.svg);
+    }
+
+    &:nth-child(2n+1):before {
+      background-image: url(../img/index-screen1-bullet2.svg);
+    }
+  }
+}
