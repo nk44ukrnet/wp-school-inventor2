@@ -9417,11 +9417,20 @@ footer.footer .footer-inner .footer-inner-item li a {
     padding-bottom: 40px;
   }
 }
+@media (max-width: 450px) {
+  .camp2-hero {
+    padding-top: 198px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+}
 .camp2-hero__holder {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
+  align-items: flex-start;
   margin-right: 27px;
 }
 .camp2-hero__item > * {

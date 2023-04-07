@@ -51,12 +51,25 @@
     padding-bottom: 40px;
   }
 
+  @media (max-width: 450px) {
+    padding-top: 198px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+
   &__holder {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
+    align-items: flex-start;
+
     margin-right: 27px;
+    
+    //@media (max-width: @camp2mobile) {
+    //align-items: flex-start;
+    //}
   }
 
   &__item {
