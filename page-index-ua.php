@@ -39,10 +39,10 @@ while (have_posts()) {
         </div>
     </div>
 
-    <div class="index-join-camp padding-mobile content-size">
+    <!--<div class="index-join-camp padding-mobile content-size">
         <h2 class="font-size-2 index-join-camp__heading">Весняний табір і садочок <br> для дітей 4-13р. </h2>
         <a href="https://inventor.com.ua/camp/" class="index-join-camp btn-cta">Детальніше</a>
-    </div>
+    </div>-->
 
     <div class="index-help">
         <div class="help-content">
