@@ -464,7 +464,7 @@ try {
     //CAMP2 offer POP-up {camp2-popup}
     document.forms['camp2-popup'].addEventListener('submit', function (e) {
         e.preventDefault();
-        postViaFetch('https://script.google.com/macros/s/AKfycbxUCiOMAPJVkcIfGHLfNHHAWowzJxaZSSEGMYQQYjA-PL2wcm18lM3QZY7o8NzbUOc/exec', 'camp2-popup', '/thanks');
+        postViaFetch('https://script.google.com/macros/s/AKfycbxUCiOMAPJVkcIfGHLfNHHAWowzJxaZSSEGMYQQYjA-PL2wcm18lM3QZY7o8NzbUOc/exec', 'camp2-popup', '/thanks-camp2');
     });
 } catch (e) {
     console.log(e);
