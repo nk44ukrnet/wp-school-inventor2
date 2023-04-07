@@ -258,6 +258,45 @@ try {
     console.log(e);
 }
 
+//swiper camp2 page
+try {
+    let swiper = new Swiper(".camp2swiper", {
+        slidesPerView: 5,
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1.2,
+                spaceBetween: 20
+            },
+            // when window width is >= 640px
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 20
+            }
+        },
+    });
+
+    let currentSwiper = document.querySelector('.mySwiper-index');
+    currentSwiper.addEventListener('mouseenter', () => {
+        swiper.autoplay.stop();
+
+    })
+    currentSwiper.addEventListener('mouseleave', () => {
+        swiper.autoplay.start();
+    })
+} catch (e) {
+    console.log(e);
+}
+
 //camp2 gallery
 try {
     if (document.getElementById('camp2gallery1')) {

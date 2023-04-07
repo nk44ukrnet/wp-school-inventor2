@@ -9406,7 +9406,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   margin: 0 auto;
 }
 .camp2-hero {
-  background-image: url(../img/camp2-hero-bg.png);
+  background-image: url(../img/camp2-hero-bg2.png);
   background-size: cover;
   min-height: 697px;
   box-sizing: border-box;
@@ -9458,7 +9458,7 @@ footer.footer .footer-inner .footer-inner-item li a {
 @media (min-width: 768px) {
   .camp2-hero__subheading {
     margin-top: -30px;
-    margin-left: 266px;
+    margin-left: 187px;
   }
 }
 .camp2-hero__subheading span {
@@ -9848,33 +9848,20 @@ footer.footer .footer-inner .footer-inner-item li a {
   background-color: #00BCF1;
   margin-block: 30px 80px;
 }
-@media (max-width: 768px) {
-  .camp2-gallery {
-    margin-block: 30px;
-  }
-}
-.camp2-gallery ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-@media (max-width: 768px) {
-  .camp2-gallery ul {
-    justify-content: center;
-  }
-}
-.camp2-gallery ul img {
+.camp2-gallery img {
   width: 300px;
   height: 300px;
   object-fit: cover;
 }
 @media (max-width: 768px) {
-  .camp2-gallery ul img {
+  .camp2-gallery img {
     width: 140px;
     height: 140px;
+  }
+}
+@media (max-width: 768px) {
+  .camp2-gallery {
+    margin-block: 30px;
   }
 }
 .camp2-offer {

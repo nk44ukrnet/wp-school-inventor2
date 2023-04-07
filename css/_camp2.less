@@ -41,7 +41,7 @@
 
 //section1
 .camp2-hero {
-  background-image: url(../img/camp2-hero-bg.png);
+  background-image: url(../img/camp2-hero-bg2.png);
   background-size: cover;
   min-height: 697px;
   box-sizing: border-box;
@@ -98,7 +98,7 @@
 
     @media (min-width: @camp2mobile) {
       margin-top: -30px;
-      margin-left: 266px;
+      margin-left: 187px;
     }
 
     span {
@@ -549,32 +549,19 @@
   background-color: #00BCF1;
   margin-block: 30px 80px;
 
-  @media (max-width: @camp2mobile) {
-    margin-block: 30px;
-  }
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 
     @media (max-width: @camp2mobile) {
-      justify-content: center;
+      width: 140px;
+      height: 140px;
     }
+  }
 
-    img {
-      width: 300px;
-      height: 300px;
-      object-fit: cover;
-
-      @media (max-width: @camp2mobile) {
-        width: 140px;
-        height: 140px;
-      }
-    }
+  @media (max-width: @camp2mobile) {
+    margin-block: 30px;
   }
 }
 

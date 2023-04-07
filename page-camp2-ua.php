@@ -176,7 +176,8 @@ while (have_posts()) {
 
         <div class="camp2-hotel">
             <div class="camp2-hotel__container">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-hotel.png" alt="Hotel" loading="lazy">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-hotel2.png" alt="Hotel" loading="lazy"
+                     width="1023">
             </div>
         </div>
 
@@ -202,42 +203,58 @@ while (have_posts()) {
         </div>
 
         <div class="camp2-gallery">
-            <div class="content-size padding-mobile">
-                <ul id="camp2gallery1">
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal1-min.jpeg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal1-min.jpeg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal2-min.jpg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal2-min.jpg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal3-min.png"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal3-min.png"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal4-min.jpeg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal4-min.jpeg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal5-min.jpg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal5-min.jpg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal6-min.jpeg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal6-min.jpeg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal7-min.jpg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal7-min.jpg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal8-min.jpeg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal8-min.jpeg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal9-min.jpg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal9-min.jpg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal10-min.jpg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal10-min.jpg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                    <li data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal11-min.jpg"><a href="#!"><img
-                                    src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal11-min.jpg"
-                                    alt="Gallery Photo" loading="lazy"></a></li>
-                </ul>
+            <div class="padding-mobile">
+                <div class="swiper camp2swiper">
+                    <div class="swiper-wrapper" id="camp2gallery1">
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal1-min.jpeg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal1-min.jpeg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal2-min.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal2-min.jpg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal3-min.png">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal3-min.png"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal4-min.jpeg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal4-min.jpeg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal5-min.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal5-min.jpg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal6-min.jpeg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal6-min.jpeg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal7-min.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal7-min.jpg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal8-min.jpeg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal8-min.jpeg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal9-min.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal9-min.jpg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal10-min.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal10-min.jpg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                        <div class="swiper-slide" data-src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal11-min.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-gal11-min.jpg"
+                                 alt="Gallery Photo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
         </div>
 
@@ -291,15 +308,18 @@ while (have_posts()) {
 
         <div class="camp2-conclusion">
             <div class="camp2-conclusion__text1">
-                <strong class="camp2-conclusion__cell">У вартість все включено, аби батьки були спокійні, а діти – відпочивали з комфортом: </strong>
-                <p class="camp2-conclusion__cell">трансфер з Києва, харчування, проживання, екскурсії, супровід наставників, майстер-класи, івенти. </p>
+                <strong class="camp2-conclusion__cell">У вартість все включено, аби батьки були спокійні, а діти –
+                    відпочивали з комфортом: </strong>
+                <p class="camp2-conclusion__cell">трансфер з Києва, харчування, проживання, екскурсії, супровід
+                    наставників, майстер-класи, івенти. </p>
             </div>
             <div class="content-size padding-mobile">
                 <a href="#!" class="camp2-btn" data-bs-toggle="modal"
                    data-bs-target="#campModalBook">зареєструватися</a>
 
                 <div class="camp2-conclusion__playground">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-kids-bot.png" alt="kids" loading="lazy">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-kids-bot.png" alt="kids"
+                         loading="lazy">
                 </div>
             </div>
 
