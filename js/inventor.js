@@ -258,6 +258,15 @@ try {
     console.log(e);
 }
 
+//camp2 gallery
+try {
+    if (document.getElementById('camp2gallery1')) {
+        lightGallery(document.getElementById('camp2gallery1'));
+    }
+} catch (e) {
+    console.log('camp2gallery ', e);
+}
+
 //post via fetch
 //function post via fetch
 async function postViaFetch(url, formName, redirectURL = false) {
@@ -403,6 +412,16 @@ try {
     document.forms['camp-popup'].addEventListener('submit', function (e) {
         e.preventDefault();
         postViaFetch('https://script.google.com/macros/s/AKfycbxOC78bphCZbIdFh4HUfZZ_qA2K1CFr88sEmoyaJ5SNUuWzxegNlEv-aRer29jo9o72/exec', 'camp-popup', '/thanks');
+    });
+} catch (e) {
+    console.log(e);
+}
+
+try {
+    //CAMP2 offer POP-up {camp2-popup}
+    document.forms['camp2-popup'].addEventListener('submit', function (e) {
+        e.preventDefault();
+        postViaFetch('https://script.google.com/macros/s/AKfycbxUCiOMAPJVkcIfGHLfNHHAWowzJxaZSSEGMYQQYjA-PL2wcm18lM3QZY7o8NzbUOc/exec', 'camp2-popup', '/thanks');
     });
 } catch (e) {
     console.log(e);

@@ -1,0 +1,49 @@
+@keyframes hideh2 {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: -25%;
+  }
+}
+@keyframes teacherSlideAppear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes faqAppear {
+  from {
+    opacity: 0;
+    height: 0%;
+  }
+  to {
+    opacity: 1;
+    height: 100%;
+  }
+}
+@keyframes left-right {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-7px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=_animations.css.map */

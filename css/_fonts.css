@@ -10,22 +10,41 @@
   font-weight: normal;
   font-style: normal;
 }
+/*
 @font-face {
   font-family: 'StolzM-Bold';
-  src: url('../fonts/StolzM-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/StolzM-Bold.otf') format('opentype'), url('../fonts/StolzM-Bold.woff') format('woff'), url('../fonts/StolzM-Bold.ttf') format('truetype'), url('../fonts/StolzM-Bold.svg#StolzM-Bold') format('svg');
+  src: url('../fonts/StolzM-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/StolzM-Bold.otf')  format('opentype'),
+  url('../fonts/StolzM-Bold.woff') format('woff'), url('../fonts/StolzM-Bold.ttf')  format('truetype'), url('../fonts/StolzM-Bold.svg#StolzM-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Stolzl-Bold';
-  src: url('../fonts/Stolzl-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Stolzl-Bold.otf') format('opentype'), url('../fonts/Stolzl-Bold.woff') format('woff'), url('../fonts/Stolzl-Bold.ttf') format('truetype'), url('../fonts/Stolzl-Bold.svg#Stolzl-Bold') format('svg');
+  src: url('../fonts/Stolzl-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Stolzl-Bold.otf')  format('opentype'),
+  url('../fonts/Stolzl-Bold.woff') format('woff'), url('../fonts/Stolzl-Bold.ttf')  format('truetype'), url('../fonts/Stolzl-Bold.svg#Stolzl-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'StolzM-BoldCondensed';
-  src: url('../fonts/StolzM-BoldCondensed.eot?#iefix') format('embedded-opentype'), url('../fonts/StolzM-BoldCondensed.otf') format('opentype'), url('../fonts/StolzM-BoldCondensed.woff') format('woff'), url('../fonts/StolzM-BoldCondensed.ttf') format('truetype'), url('../fonts/StolzM-BoldCondensed.svg#StolzM-BoldCondensed') format('svg');
+  src: url('../fonts/StolzM-BoldCondensed.eot?#iefix') format('embedded-opentype'),  url('../fonts/StolzM-BoldCondensed.otf')  format('opentype'),
+  url('../fonts/StolzM-BoldCondensed.woff') format('woff'), url('../fonts/StolzM-BoldCondensed.ttf')  format('truetype'), url('../fonts/StolzM-BoldCondensed.svg#StolzM-BoldCondensed') format('svg');
   font-weight: normal;
   font-style: normal;
+}*/
+.font-size-1 {
+  font: 600 6rem/7.2rem 'Stolzl-Regular', sans-serif;
+  letter-spacing: -0.02em;
+}
+.font-size-2 {
+  font: 600 4rem/4.8rem 'Stolzl-Regular', sans-serif;
+  letter-spacing: -0.02em;
+}
+.font-size-3 {
+  font: 600 2.4rem/2.9rem 'Stolzl-Regular', sans-serif;
+  letter-spacing: -0.02em;
+}
+.font-size-4 {
+  font: 600 1.6rem/1.92rem 'Stolzl-Regular', sans-serif;
 }
 /*# sourceMappingURL=_fonts.css.map */
