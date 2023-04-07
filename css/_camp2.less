@@ -549,14 +549,20 @@
   background-color: #00BCF1;
   margin-block: 30px 80px;
 
+  @media (max-width: 400px) {
+    .padding-mobile {
+      padding: 0;
+    }
+  }
+
   img {
     width: 300px;
     height: 300px;
     object-fit: cover;
 
-    @media (max-width: @camp2mobile) {
-      width: 140px;
-      height: 140px;
+    @media (max-width: 400px) {
+      width: 250px;
+      height: 250px;
     }
   }
 

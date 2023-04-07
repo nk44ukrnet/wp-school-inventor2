@@ -278,7 +278,11 @@ try {
                 spaceBetween: 20
             },
             // when window width is >= 640px
-            1024: {
+            920: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            },
+            1500: {
                 slidesPerView: 5,
                 spaceBetween: 20
             }
