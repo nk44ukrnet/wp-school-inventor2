@@ -47,8 +47,8 @@ while (have_posts()) {
 
             <div class="pricing-section__holder">
                 <div class="pricing-section__item">
-                    <div class="pricing-section__cell pricing-section__cell_heading">24 500 грн</div>
-                    <div class="pricing-section__cell">Щомісячний платіж –  24 500 грн + щорічний разовий внесок</div>
+                    <div class="pricing-section__cell pricing-section__cell_heading">25 500 грн</div>
+                    <div class="pricing-section__cell">Щомісячний платіж –  25 500 грн + щорічний разовий внесок</div>
                     <div class="pricing-section__cell">Перебування у школі неповний навчальний день  з 8:00-16:00</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу</div>
                     <div class="pricing-section__cell">Класи не більше 20 учнів</div>
@@ -76,7 +76,7 @@ while (have_posts()) {
                 </div>
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">28 500 грн</div>
-                    <div class="pricing-section__cell">Щомісячний платіж –  28 500 грн + щорічний разовий внесок </div>
+                    <div class="pricing-section__cell">Щомісячний платіж – 28 500 грн + щорічний разовий внесок </div>
                     <div class="pricing-section__cell">Перебування у школі повний навчальний день  з 8:00-18:00</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу</div>
                     <div class="pricing-section__cell">Класи не більше 20 учнів</div>
@@ -108,7 +108,7 @@ while (have_posts()) {
                 <br><br>
                 За усіма деталями щодо вступу та вартості навчання телефонуйте за номером
                 <br>
-                <a href="tel:+380678285774" class="colored">+38 (067) 828 57 74</a>
+                <a href="tel:+380503805503" class="colored">+38 (050) 380 55 03</a>
             </h2>
         </div>
     </div>

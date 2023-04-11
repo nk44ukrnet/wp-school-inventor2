@@ -51,11 +51,11 @@ while (have_posts()) {
 
             <div class="pricing-section__holder">
                 <div class="pricing-section__item">
-                    <div class="pricing-section__cell pricing-section__cell_heading">24 500 грн.</div>
-                    <div class="pricing-section__cell">Щомісячно 24 500 грн</div>
-                    <div class="pricing-section__cell">
-                        Щорічний внесок 26 500 грн (можливість оплати семестрово)
-                    </div>
+                    <div class="pricing-section__cell pricing-section__cell_heading">25 500 грн.</div>
+                    <div class="pricing-section__cell">Щомісячно 25 500 грн + щорічний разовий внесок</div>
+<!--                    <div class="pricing-section__cell">-->
+<!--                        Щорічний внесок 26 500 грн (можливість оплати семестрово)-->
+<!--                    </div>-->
 <!--                    <div class="pricing-section__cell">-->
 <!--                        219 000 грн \ навчальний рік зі знижкою-->
 <!--                    </div>-->
@@ -140,11 +140,11 @@ while (have_posts()) {
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">28 500 грн.</div>
                     <div class="pricing-section__cell">
-                        Щомісячно 28 500 грн
+                        Щомісячно 28 500 грн + щорічний разовий внесок
                     </div>
-                    <div class="pricing-section__cell">
-                        Щорічний внесок 26 500 грн \можливість оплати семестрово\
-                    </div>
+<!--                    <div class="pricing-section__cell">-->
+<!--                        Щорічний внесок 26 500 грн \можливість оплати семестрово\-->
+<!--                    </div>-->
 <!--                    <div class="pricing-section__cell">-->
 <!--                        253 000 грн \ навчальний рік зі знижкою-->
 <!--                    </div>-->
@@ -227,6 +227,14 @@ while (have_posts()) {
                             АНКЕТУ</a></div>
                 </div>
             </div>
+
+            <h2 class="font-size-3">
+                <br><br>
+                За усіма деталями щодо вступу та вартості навчання телефонуйте за номером
+                <br>
+                <a href="tel:+380503805503" class="colored">+38 (050) 380 55 03</a>
+            </h2>
+
         </div>
     </div>
 

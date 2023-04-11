@@ -62,8 +62,8 @@ while ( have_posts() ) {
 
             <div class="pricing-section__holder">
                 <div class="pricing-section__item">
-                    <div class="pricing-section__cell pricing-section__cell_heading">19 700 грн</div>
-                    <div class="pricing-section__cell">Щомісячний платіж – 19 700 грн + щорічний разовий внесок</div>
+                    <div class="pricing-section__cell pricing-section__cell_heading">21 000 грн</div>
+                    <div class="pricing-section__cell">Щомісячний платіж – 21 000 грн + щорічний разовий внесок</div>
                     <div class="pricing-section__cell">Перебування у дитячому садочку повний день  з 8:00-18:30</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу </div>
                     <div class="pricing-section__cell">Група не більше 16 дітей </div>
@@ -96,7 +96,7 @@ while ( have_posts() ) {
             <h3 class="font-size-3 mt-4">
                 <br>
                 За усіма деталями щодо вступу та вартості навчання телефонуйте за номером <br>
-                <a href="tel:+380678285774" class="colored">+38 (067) 828 57 74</a>
+                <a href="tel:+380503805503" class="colored">+38 (050) 380 55 03</a>
             </h3>
         </div>
     </div>
