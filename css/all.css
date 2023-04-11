@@ -10008,9 +10008,13 @@ footer.footer .footer-inner .footer-inner-item li a {
 .camp2-conclusion__playground {
   text-align: center;
   position: relative;
+  height: auto;
+  min-height: 100px;
 }
 .camp2-conclusion__playground img {
   width: 100%;
   max-width: 848px;
+  height: auto;
+  position: relative;
 }
 /*# sourceMappingURL=all.css.map */
