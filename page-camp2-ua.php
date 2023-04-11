@@ -101,7 +101,11 @@ while (have_posts()) {
                         <h2>Поспішайте забронювати місце! Кількість обмежена! </h2>
                     </div>
                     <div class="camp2-cta__item">
+                        <div>
                         <a href="#!" class="camp2-btn" data-bs-toggle="modal" data-bs-target="#campModalBook">Зареєструватися</a>
+                        <br>
+                        або за номером <br> <a href="tel:+380444909080">+38 (044) 490 90 80</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -358,16 +362,10 @@ while (have_posts()) {
     <script>
         (function () {
             window.addEventListener('DOMContentLoaded', () => {
-                //delete phone other than "Karina" from
-                // let headerTelToRemove = document.querySelectorAll('.header .line .outer .inner a');
-                let headerTelToRemove = document.querySelectorAll('a');
+                //delete phone at footer
+                let headerTelToRemove = document.querySelectorAll('.footer a[href*="tel:"]');
                 headerTelToRemove.forEach(item => {
-                    let attr = item.getAttribute('href');
-                    if (attr.indexOf('tel:') != -1) {
-                        if (attr !== 'tel:+380678285774') {
-                            item.remove();
-                        }
-                    }
+                    item.remove();
                 })
             })
         })()

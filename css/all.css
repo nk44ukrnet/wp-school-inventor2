@@ -9621,6 +9621,14 @@ footer.footer .footer-inner .footer-inner-item li a {
   display: flex;
   align-items: center;
 }
+.camp2-cta__item a[href*="tel:"] {
+  color: #fff;
+  text-decoration: underline;
+}
+.camp2-cta__item a[href*="tel:"]:hover {
+  color: #fff;
+  opacity: 1;
+}
 .camp2-cta__item h2 {
   font-weight: 700;
   font-size: 48px;
