@@ -9617,6 +9617,10 @@ footer.footer .footer-inner .footer-inner-item li a {
   align-self: center;
   gap: 20px;
 }
+.camp2-cta__tel {
+  font-weight: bold;
+  font-size: 20px;
+}
 .camp2-cta__item {
   display: flex;
   align-items: center;

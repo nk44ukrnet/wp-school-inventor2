@@ -101,10 +101,10 @@ while (have_posts()) {
                         <h2>Поспішайте забронювати місце! Кількість обмежена! </h2>
                     </div>
                     <div class="camp2-cta__item">
-                        <div>
+                        <div class="camp2-cta__tel">
                         <a href="#!" class="camp2-btn" data-bs-toggle="modal" data-bs-target="#campModalBook">Зареєструватися</a>
                         <br>
-                        або за номером <br> <a href="tel:+380444909080">+38 (044) 490 90 80</a>
+                        або за номером <br> <a href="tel:+380955247537" >+38 095 524 75 37</a>
                         </div>
                     </div>
                 </div>
