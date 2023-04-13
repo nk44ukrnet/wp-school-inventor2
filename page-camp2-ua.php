@@ -322,8 +322,8 @@ while (have_posts()) {
                    data-bs-target="#campModalBook">зареєструватися</a>
 
                 <div class="camp2-conclusion__playground">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-kids-bot.png" alt="kids"
-                         loading="lazy">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/camp2-kids-botx3.png" alt="kids"
+                         loading="lazy" width="848">
                 </div>
             </div>
 
