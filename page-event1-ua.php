@@ -21,7 +21,7 @@ while (have_posts()) {
 
             <div class="desc">
                 <p>
-                    <strong>Дата: </strong> 29 квітня
+                    <strong>Дата: </strong> 29 квітня 11:00
                     <br>
                     <br>
                     <strong>Де:</strong>
