@@ -37,21 +37,21 @@ while (have_posts()) {
 
         <section class="camp2-schedule">
             <div class="camp2-schedule__holder">
-                <div class="camp2-schedule__item">
+                <!--<div class="camp2-schedule__item">
                     <div>
                         <h2>1 зміна</h2>
                         <p>16-25 червня</p>
                     </div>
-                </div>
+                </div>-->
                 <div class="camp2-schedule__item">
                     <div>
-                        <h2>2 зміна</h2>
+                        <h2>1 зміна</h2>
                         <p>25 червня-4 липня</p>
                     </div>
                 </div>
                 <div class="camp2-schedule__item">
                     <div>
-                        <h2>3 зміна</h2>
+                        <h2>2 зміна</h2>
                         <p>19-28 липня</p>
                     </div>
                 </div>
@@ -346,9 +346,9 @@ while (have_posts()) {
                         <input type="email" name="email" placeholder="Email " required>
                         <select name="date" required>
                             <option value="" selected disabled>Номер зміни</option>
-                            <option value="1 зміна">1 зміна 16-25 червня</option>
-                            <option value="2 зміна">2 зміна 25 червня-4 липня</option>
-                            <option value="3 зміна">3 зміна 19-28 липня</option>
+<!--                            <option value="1 зміна">1 зміна 16-25 червня</option>-->
+                            <option value="1 зміна">1 зміна 25 червня-4 липня</option>
+                            <option value="2 зміна">2 зміна 19-28 липня</option>
                         </select>
                         <div class="submit-group">
                             <input type="submit" name="submit" value="Надіслати">
