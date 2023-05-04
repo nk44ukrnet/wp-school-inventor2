@@ -777,7 +777,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   padding-bottom: 5.5rem;
   max-width: 1280px;
   margin: 0 auto;
-  background-image: url("../img/index-screen1-bg2.png");
+  background-image: url("../img/index-screen1-bg4.png");
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -966,7 +966,9 @@ footer.footer .footer-inner .footer-inner-item li a {
     width: 100%;
     height: 43.3rem;
     margin: 0 auto;
-    background-image: url("../img/index-screen1-bg2.png");
+    background-image: url("../img/index-screen1-bg4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center;
   }
   .index-screen1 .content .reg a {
@@ -3237,7 +3239,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   padding-left: 79px;
   padding-top: 39px;
   padding-bottom: 75px;
-  background-image: url(../img/grade1-4-screen1-bg-1.png);
+  background-image: url(../img/grade1-4-screen1-bg-2.png);
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -3311,7 +3313,7 @@ footer.footer .footer-inner .footer-inner-item li a {
     padding-left: 20px;
   }
 }
-@media (max-width: 947px) {
+@media (max-width: 1154px) {
   .grade1-4-screen1 {
     padding-top: 33px;
     padding-bottom: 350px;
@@ -5196,7 +5198,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: top right;
-  background-image: url(../img/grade5-12-screen1-bg-2.png);
+  background-image: url(../img/grade5-12-screen1-bg-3.png);
 }
 .grade5-12-screen1 .inner {
   max-width: 1120px;
@@ -5370,6 +5372,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   margin-bottom: 16px;
   width: 100%;
   position: relative;
+  cursor: pointer;
 }
 .grade5-12-result .result-content .result-item:before {
   content: '';
@@ -5635,7 +5638,7 @@ footer.footer .footer-inner .footer-inner-item li a {
   padding-top: 51px;
   padding-bottom: 49px;
   background-repeat: no-repeat;
-  background-image: url(../img/preschool-screen1a-bg.png);
+  background-image: url(../img/preschool-screen1b-bg.png);
   background-position: top right;
   max-width: 1280px;
   margin: 0 auto;
@@ -5760,9 +5763,10 @@ footer.footer .footer-inner .footer-inner-item li a {
 @media (max-width: 1044px) {
   .preschool_screen1 {
     padding-top: 33px;
-    padding-bottom: 0px;
-    background-image: url(../img/preschool-screen1a-bg-mob.png);
-    background-position: bottom 150px center;
+    padding-bottom: 240px;
+    background-image: url(../img/preschool-screen1b-bg.png);
+    background-size: 220px 220px;
+    background-position: bottom center;
   }
   .preschool_screen1 .preschool_screen1_content h1 {
     max-width: 309px;
@@ -5793,23 +5797,10 @@ footer.footer .footer-inner .footer-inner-item li a {
     font-family: 'Stolzl-Regular', sans-serif;
     padding-left: 52px;
   }
-  .preschool_screen1 .preschool_screen1_content .last-p {
-    margin-top: 266px;
-  }
   .preschool_screen1 .preschool_screen1_content .reg-area a {
     margin: 0 auto;
     padding: 21px 25px;
     font-size: 16px;
-  }
-}
-@media (max-width: 388px) {
-  .preschool_screen1 {
-    background-position: bottom 180px center;
-  }
-}
-@media (max-width: 329px) {
-  .preschool_screen1 {
-    background-position: bottom 220px center;
   }
 }
 .preschool_develop {

@@ -26,7 +26,7 @@ while (have_posts()) {
                 <li>Підготовка до вступу у світові виші</li>
             </ul>
             <div class="school-entry">
-                <p class="date">Старт навчання 01.09.2022</p>
+<!--                <p class="date">Старт навчання 01.09.2022</p>-->
                 <a href="#!" class="btn-entry" data-bs-toggle="modal" data-bs-target="#contactPopup">Вступити до
                     школи</a>
             </div>
