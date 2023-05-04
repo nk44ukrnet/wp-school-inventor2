@@ -939,18 +939,6 @@ footer.footer .footer-inner .footer-inner-item li a {
     font: 400 12px/14.4px 'Stolzl-Regular', sans-serif;
     margin-bottom: 21px;
   }
-  .index-screen1 .content ul li:nth-child(1) {
-    order: 1;
-  }
-  .index-screen1 .content ul li:nth-child(2) {
-    order: 3;
-  }
-  .index-screen1 .content ul li:nth-child(3) {
-    order: 2;
-  }
-  .index-screen1 .content ul li:nth-child(4) {
-    order: 4;
-  }
   .index-screen1 .content ul li:last-child {
     margin-bottom: 41px;
   }
@@ -5763,10 +5751,8 @@ footer.footer .footer-inner .footer-inner-item li a {
 @media (max-width: 1044px) {
   .preschool_screen1 {
     padding-top: 33px;
-    padding-bottom: 240px;
-    background-image: url(../img/preschool-screen1b-bg.png);
-    background-size: 220px 220px;
-    background-position: bottom center;
+    padding-bottom: 20px;
+    background-image: unset;
   }
   .preschool_screen1 .preschool_screen1_content h1 {
     max-width: 309px;
@@ -5796,6 +5782,13 @@ footer.footer .footer-inner .footer-inner-item li a {
     line-height: 14px;
     font-family: 'Stolzl-Regular', sans-serif;
     padding-left: 52px;
+  }
+  .preschool_screen1 .preschool_screen1_content .reg-area {
+    padding-top: 240px;
+    background-size: 220px 220px;
+    background-position: top 10px center;
+    background-image: url(../img/preschool-screen1b-bg.png);
+    background-repeat: no-repeat;
   }
   .preschool_screen1 .preschool_screen1_content .reg-area a {
     margin: 0 auto;
