@@ -294,18 +294,18 @@ while (have_posts()) {
                 <div class="camp2-offer__holder">
                     <div class="camp2-offer__item camp2-offer__item_green">
                         <div class="camp2-offer__content">
-                            <p>Регулярна ціна: </p>
+<!--                            <p>Регулярна ціна: </p>-->
                             <h3>20 500</h3>
                             <p>за 1 зміну </p>
                         </div>
                     </div>
-                    <div class="camp2-offer__item camp2-offer__item_red">
-                        <div class="camp2-offer__content">
-                            <p>Акція “Ранні пташки”</p>
-                            <h3>18 500</h3>
-                            <small>(за умови бронювання місця до 10 травня) </small>
-                        </div>
-                    </div>
+<!--                    <div class="camp2-offer__item camp2-offer__item_red">-->
+<!--                        <div class="camp2-offer__content">-->
+<!--                            <p>Акція “Ранні пташки”</p>-->
+<!--                            <h3>18 500</h3>-->
+<!--                            <small>(за умови бронювання місця до 10 травня) </small>-->
+<!--                        </div>-->
+<!--                    </div>-->
                 </div>
             </div>
         </div>
