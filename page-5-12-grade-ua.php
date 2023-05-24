@@ -272,6 +272,14 @@ while (have_posts()) {
         <!--        </iframe>-->
     </div>
 
+    <div class="video-flex content-size padding-mobile" style="padding-top: 50px;">
+        <div class="video-flex__holder">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wA79niLuwzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aQaMYOyVIzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5jByHh9LC3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
     <div class="grade1-4-process">
         <h2>Як влаштовано навчальний процес</h2>
         <div class="grade1-4-process-container">

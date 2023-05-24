@@ -315,6 +315,16 @@ a:hover {
   margin: 15px auto;
   height: 315px;
 }
+.video-flex__holder {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.video-flex__holder iframe {
+  display: block;
+  flex: 1 1 300px;
+  height: 600px;
+}
 @keyframes hideh2 {
   0% {
     margin-top: 0;
