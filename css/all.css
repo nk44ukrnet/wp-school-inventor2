@@ -325,6 +325,45 @@ a:hover {
   flex: 1 1 300px;
   height: 600px;
 }
+.flex-gallery-3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 25px;
+}
+.flex-gallery-3_img-height-md img {
+  height: 300px;
+  object-fit: cover;
+}
+.flex-gallery-3 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.flex-gallery-3 > * {
+  flex: 1 1 30%;
+}
+.flex-gallery-3 > * img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.padding-block {
+  padding-block: 50px;
+}
+@media (max-width: 768px) {
+  .padding-block {
+    padding-block: 25px;
+  }
+}
+.gallery-4 img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center center;
+}
+.gallery-4 .swiper-slide {
+  cursor: pointer;
+}
 @keyframes hideh2 {
   0% {
     margin-top: 0;

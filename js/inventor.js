@@ -215,6 +215,60 @@ try {
     console.log(e);
 }
 
+//gallery4
+try {
+    let gal4 = document.querySelector('#gallery4');
+    if(gal4) {
+        let swiperSlide = gal4.querySelectorAll('.swiper-slide');
+        if(swiperSlide.length) {
+            swiperSlide.forEach(item=>{
+                // lightGallery(item);
+            })
+        }
+    }
+    lightGallery(document.getElementById('gallery4'));
+} catch (e) {
+    console.log(e);
+}
+
+//swiper gallery4
+try {
+    let swiperGallery4 = new Swiper(".mySwiperGallery4", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            30: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            },
+            620: {
+                slidesPerView: 2,
+                spaceBetween: 10
+            },
+            // when window width is >= 640px
+            930: {
+                slidesPerView: 3,
+                spaceBetween: 10
+            },
+            1240: {
+                slidesPerView: 4,
+                spaceBetween: 10
+            },
+        },
+    });
+} catch (e) {
+    console.log(e);
+}
+
 //swiper index page
 try {
     let swiper = new Swiper(".mySwiper-index", {

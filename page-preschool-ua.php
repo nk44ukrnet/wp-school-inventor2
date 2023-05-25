@@ -350,7 +350,110 @@ while ( have_posts() ) {
         </div>
     </div>
 
-    <section class="preschool-gallery">
+    <div class="content-size padding-mobile padding-block">
+        <div class="gallery-4">
+            <!-- Swiper -->
+            <div class="swiper mySwiperGallery4" >
+                <div class="swiper-wrapper" id="gallery4">
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i6.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i6.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i7.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i7.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i8.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i8.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i9.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i9.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i10.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i10.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i11.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i11.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i12.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i12.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i13.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i13.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i14.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i14.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i15.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i15.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i16.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i16.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i17.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i17.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i18.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i18.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i1.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i1.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i2.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i2.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i3.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i3.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i4.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i4.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i5.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/preschool-gal23-i5.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--<section class="preschool-gallery">
         <div class="preschool-gallery__container content-size padding-mobile">
             <div class="preschool-gallery__holder" id="preschoolGallery1">
                 <img src="https://school.inventorschool.org.ua/wp-content/uploads/2022/06/photo5301110965191949052.jpg"
@@ -469,7 +572,7 @@ while ( have_posts() ) {
                      class="img-item">
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section class="preschool_place">
         <div class="heading">

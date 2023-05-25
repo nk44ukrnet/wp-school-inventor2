@@ -272,6 +272,71 @@ while (have_posts()) {
         </h3>
     </div>
 
+    <div class="content-size padding-mobile padding-block">
+        <div class="gallery-4">
+            <!-- Swiper -->
+            <div class="swiper mySwiperGallery4" >
+                <div class="swiper-wrapper" id="gallery4">
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-8.jpg">
+                            <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-8.jpg"
+                                 alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-9.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-9.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-10.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-10.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-11.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-11.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-12.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-12.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-1.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-1.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-2.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-2.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-13.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-13.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-3.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-3.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-4.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-4.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-5.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-5.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-6.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-6.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide" data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-7.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/1-4image-gallery23-7.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
     <div class="grade1-4-project">
         <div class="grade1-4-project-item">
         </div>

@@ -274,9 +274,9 @@ while (have_posts()) {
 
     <div class="video-flex content-size padding-mobile" style="padding-top: 50px;">
         <div class="video-flex__holder">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/wA79niLuwzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/aQaMYOyVIzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/WQ1AwtKx5uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wA79niLuwzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aQaMYOyVIzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WQ1AwtKx5uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
         </div>
     </div>
 
@@ -423,6 +423,79 @@ while (have_posts()) {
             Це орієнтовний розклад. Якщо дитина захворіла або поїхала з батьками у відпустку, уроки можна
             відвідати онлайн.
         </h3>
+    </div>
+
+    <div class="content-size padding-mobile padding-block">
+        <div class="gallery-4">
+            <!-- Swiper -->
+            <div class="swiper mySwiperGallery4" >
+                <div class="swiper-wrapper" id="gallery4">
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i6.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i6.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i7.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i7.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i8.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i8.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i9.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i9.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i10.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i10.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i11.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i11.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i12.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i12.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i1.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i1.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i2.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i2.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i3.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i3.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i4.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i4.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                    <div class="swiper-slide"
+                         data-src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i5.jpg">
+                        <img src="https://school.inventorschool.org.ua/wp-content/uploads/2023/05/5-12-gal-23-i5.jpg"
+                             alt="Gallery image" loading="lazy">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
     </div>
 
     <div class="grade1-5-project">
