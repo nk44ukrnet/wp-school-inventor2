@@ -229,13 +229,13 @@ while (have_posts()) {
     <div class="index-year">
         <div class="index-year__container padding-mobile content-size">
             <div class="index-year__video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HdLEvBDpBKk"
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2qEYnqgF8uw"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
             </div>
             <div class="index-year__text font-size-2">
-                Навчальний рік 2022
+                Inventor School запрошує познайомитися!
             </div>
         </div>
     </div>
