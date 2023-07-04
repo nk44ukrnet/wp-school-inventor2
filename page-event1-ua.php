@@ -21,7 +21,7 @@ while (have_posts()) {
 
             <div class="desc">
                 <p>
-                    <strong>Дата: </strong> 29 квітня 11:00
+                    <strong>Дата: </strong> 13 липня о 16:30
                     <br>
                     <br>
                     <strong>Де:</strong>
@@ -35,7 +35,7 @@ while (have_posts()) {
     </section>
 
         <section class="event-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/C4KIKIY_Ksw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/2qEYnqgF8uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
 
     <div class="event_descreption">
