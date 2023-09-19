@@ -12,7 +12,7 @@ while ( have_posts() ) {
 
     <section class="preschool_screen1">
         <div class="preschool_screen1_content">
-            <h1>Садочок <span>4-6 років</span></h1>
+            <h1>Садочок <span>5-6 років</span></h1>
             <h2>Inventor Preschool – це ліцензований дошкільний заклад повного дня. <!--, де ми готуємо дітей до школи,
                 навчаючись з LEGO.--></h2>
             <p>
@@ -21,7 +21,6 @@ while ( have_posts() ) {
             </p>
             <div class="list">
                 <ul>
-                    <li>для дітей 4-5 років</li>
                     <li>для дітей 5-6 років</li>
                     <li>цілісний розвиток особистості дитини</li>
                     <li>державний стандарт дошкільної освіти</li>
@@ -53,20 +52,15 @@ while ( have_posts() ) {
                     <strong>5%</strong>
                     на другу дитину
                 </div>
-                <div class="pricing-section__block">
-                    <p>знижка</p>
-                    <strong>2%</strong>
-                    при оплаті за семестр
-                </div>
             </div>
 
             <div class="pricing-section__holder">
                 <div class="pricing-section__item">
                     <div class="pricing-section__cell pricing-section__cell_heading">21 000 грн</div>
                     <div class="pricing-section__cell">Щомісячний платіж – 21 000 грн + щорічний разовий внесок</div>
-                    <div class="pricing-section__cell">Перебування у дитячому садочку повний день  з 8:00-18:30</div>
+                    <div class="pricing-section__cell">Перебування у дитячому садочку повний день з 8:00-18:00</div>
                     <div class="pricing-section__cell">Власне бомбосховище з можливістю продовження навчального процесу </div>
-                    <div class="pricing-section__cell">Група не більше 16 дітей </div>
+                    <div class="pricing-section__cell">Група не більше 18 дітей </div>
                     <div class="pricing-section__cell">Заняття за авторськими програми згідно Державного стандарту: грамота, розвиток мовлення, я у довкіллі, англійська мова, фізичне виховання, музика, ейдетика та логоритміка, художня література і театралізація</div>
                     <div class="pricing-section__cell">Поглиблене вивчення математики за сінгапурською програмою та з білінгвальним навчанням</div>
                     <div class="pricing-section__cell">Вивчення англійської мови</div>
