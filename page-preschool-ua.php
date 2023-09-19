@@ -51,7 +51,7 @@ while ( have_posts() ) {
                     <p>знижка</p>
                     <strong>5%</strong>
                     на другу дитину
-                </div>
+                </div><!--price discount-->
             </div>
 
             <div class="pricing-section__holder">
